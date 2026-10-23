@@ -1,0 +1,28 @@
+[
+  {
+    "cohort": "pigeon",
+    "actualLamports": "3604627644417",
+    "recalculatedLamports": "6000318444577",
+    "deltaLamports": "2395690800160",
+    "USDperSOL": "107.24",
+    "exactDeltaSOL": "2395.69080016",
+    "unroundedIncreaseUSD": "256913.8814091584",
+    "unroundedIncreasePct": "66.46153324242928117484830279",
+    "displayUSD": "+$256,914",
+    "displayPct": "+66.5%",
+    "rounding": "ROUND_HALF_UP; whole USD and 1 decimal percent"
+  },
+  {
+    "cohort": "ram",
+    "actualLamports": "807507512206",
+    "recalculatedLamports": "1583142686732",
+    "deltaLamports": "775635174526",
+    "USDperSOL": "107.24",
+    "exactDeltaSOL": "775.635174526",
+    "unroundedIncreaseUSD": "83179.11611616824",
+    "unroundedIncreasePct": "96.05299799714195403372143177",
+    "displayUSD": "+$83,179",
+    "displayPct": "+96.1%",
+    "rounding": "ROUND_HALF_UP; whole USD and 1 decimal percent"
+  }
+]

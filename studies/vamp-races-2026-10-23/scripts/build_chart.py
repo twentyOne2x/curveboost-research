@@ -29,11 +29,11 @@ def line(x,y,x2,y2,color=RULE,width=2):
 def rect(x,y,w,h,color):
  if d:d.rectangle((x*2,y*2,(x+w)*2,(y+h)*2),fill=color)
  s.append(f'<rect x="{x}" y="{y}" width="{w}" height="{h}" fill="{color}"/>')
-mark=[(70+x,55+y) for x,y in [(0, 34), (12, 33), (24, 31), (34, 27), (42, 21), (47, 13), (48, 6), (47, 0), (51, 10), (59, -10), (55, 12), (67, 0), (58, 15), (74, 10), (60, 21), (66, 27), (57, 25), (51, 26), (44, 30), (34, 34), (21, 36), (0, 36)]]
+mark=[(70+x,55+y) for x,y in [(0, 42), (14, 42), (28, 41), (39, 40), (47, 37), (53, 32), (57, 24), (60, 12), (62, 0), (65, 12), (70, -13), (68, 13), (80, 1), (71, 19), (85, 13), (73, 25), (79, 30), (69, 29), (65, 31), (61, 38), (51, 43), (35, 46), (14, 46), (0, 45)]]
 if d:d.polygon([(x*2,y*2) for x,y in mark],fill=WHITE)
 s.append('<polygon points="'+' '.join(str(x)+','+str(y) for x,y in mark)+'" fill="'+WHITE+'"/>')
-text(163,50,'Curve Boost',32,bold=True)
-text(1334,54,'attn.markets',25,color=MUTED)
+text(163,50,'CurveBoost',32,bold=True)
+text(1170,54,'A product by attn.markets',25,color=MUTED)
 line(70,110,1530,110,RULE)
 text(70,146,f'{den:,} CONTESTED VAMP RACES',25,color=MUTED,bold=True)
 text(70,204,'Opening volume and',73,bold=True)
@@ -56,6 +56,6 @@ text(70,967,'At least two tokens with $1,000+ first-hour volume.',27,color=MUTED
 text(70,1008,'Each token uses its own two-minute and one-hour windows.',27,color=MUTED)
 text(70,1049,'Launches: 22–23 Oct 2026 · @Circular_fi export · attn.markets',24,color=MUTED)
 
-(OUT/'curve-boost-opening-volume-v1.svg').write_text(''.join(s)+'</svg>')
-if im:im.resize((W,H),Image.Resampling.LANCZOS).save(OUT/'curve-boost-opening-volume-v1.png')
+(OUT/'curveboost-opening-volume-v2.svg').write_text(''.join(s)+'</svg>')
+if im:im.resize((W,H),Image.Resampling.LANCZOS).save(OUT/'curveboost-opening-volume-v2.png')
 print('SVG written; PNG '+('written with installed font fallback' if im else 'not requested or optional Pillow unavailable'))

@@ -1,12 +1,14 @@
 {
   "hashAlgorithm": "sha256",
   "files": {
-    "README.md": "6becaffdb7b59d645dcb0c2ed81c3aca2170cded085ae7be0524e2d517f8c9f9",
+    "README.md": "fa6605247a9e5c557b18bc804a9eb0d2dc2b82bac64d7f92549233dcbf111828",
     "VERIFICATION.md": "d640461556fd1cb175df5c7976377d88bc5b20f93a14afbcc32ed066b51628ee",
     "charts/original/vamp-opening-volume-v1.png": "d54deddbae0be36000f0cf932207da7eed5ede94589ed1235976d994909a427e",
     "charts/original/vamp-opening-volume-v1.svg": "5fc8b940ffebc216b41e4314437490828ed0567be681ad03cb982c46126a62f1",
     "charts/rebuilt/curve-boost-opening-volume-v1.png": "2b62f4c68110be4e316edc25dae0173f9815682e41a8300ef70087d1a56ce5de",
     "charts/rebuilt/curve-boost-opening-volume-v1.svg": "c554160425a9a0cfd8a31a1b02cdf61193411ddcf598e55833c67327487f5502",
+    "charts/rebuilt/curveboost-opening-volume-v2.png": "8ef9c60b3ac558d77a134f02f2782b66862380cf8288028dc58119d8cc2e3ace",
+    "charts/rebuilt/curveboost-opening-volume-v2.svg": "54450d04348a95fd97501e67ac77a02714db8f1df062f01c4a4ccd2bb325b17b",
     "charts/rebuilt/vamp-opening-volume-v1.png": "d54deddbae0be36000f0cf932207da7eed5ede94589ed1235976d994909a427e",
     "charts/rebuilt/vamp-opening-volume-v1.svg": "faa5de5978e0f812b365be8dc70dc0cf8973821717fd60611be86e82b7db6188",
     "data/README.txt": "210dec308a641058f580e1c0c2b085331072ca760f77275afae04b4e14638be6",
@@ -21,7 +23,7 @@
     "results/vamp-review.json": "cc96e474266adeb5bea20b797a4141b6f1ac312021746b46626b59ca4e3585c5",
     "results/verification.json": "dcf323fb66166639d01cca83eddea30fb729787b924539216c724e2d4634254a",
     "scripts/analyze.py": "c78fa9673c0fb29b3970d8a72f99960cacb5b6033f12f22cc7b1235d0cda00f7",
-    "scripts/build_chart.py": "66748581ddccfbb404abf29d3ac03afeafab36cdbaa8fcd8ac2062cbe34950ae"
+    "scripts/build_chart.py": "f5db7408fcdf89c8b1f364168eeafad58b648edf784147ffbf300881f03e5d6a"
   },
   "selfExcluded": true
 }

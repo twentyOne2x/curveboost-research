@@ -1,12 +1,12 @@
-Curve Boost: built for the opening rush
+CurveBoost: built for the opening rush
 
 @pumpfun saw 46,528 launches on 22 October 2026, about 32 per minute on average, according to @tehcscreener.
 
-Tokens routinely compete for the same idea within seconds. We're building Curve Boost at @attndotmarkets around one goal: make more of a launch's opening volume happen after graduation, at the highest creator-fee rate.
+Tokens routinely compete for the same idea within seconds. We're building CurveBoost at @attndotmarkets around one goal: make more of a launch's opening volume happen after graduation, at the highest creator-fee rate.
 
 Across 1,219 contested launch races in @Circular_fi's 22-23 October 2026 dataset, the token with the strongest own two-minute opening also led first-hour volume in 82.6% of races. The first token launched won 47.3%. Each race had at least two tokens with $1,000 in first-hour volume. Races matched ticker and similar name or identical image; each token's windows start at its own first trade.
 
-Curve Boost is designed to bring graduation forward so that opening activity can generate higher creator fees, instead of spending that window on the bonding curve.
+CurveBoost is designed to bring graduation forward so that opening activity can generate higher creator fees, instead of spending that window on the bonding curve.
 
 What the first hour could have paid
 
@@ -22,11 +22,11 @@ The same trading activity pays more to its creator because the bonding-curve por
 
 Give the creator a reason to claim
 
-When a token launches around someone's work, the fees are an invitation to get involved. Curve Boost aims to make that invitation worth claiming by building a larger fee pot during the window that matters most.
+When a token launches around someone's work, the fees are an invitation to get involved. CurveBoost aims to make that invitation worth claiming by building a larger fee pot during the window that matters most.
 
 Whether you assign the fees to another creator or keep them yourself, the goal is the same: more creator fees from the opening volume.
 
-Curve Boost is still in development, and part of our ambition to build the best launchpad at @attndotmarkets. We plan to use it for our own launches too, helping more of their opening volume generate the highest creator fees.
+CurveBoost is still in development. It will join the @attndotmarkets product suite, supporting our launchpad and our own launches so more opening volume can generate higher creator fees.
 
 Race data: @Circular_fi (22-23 October 2026). Fee rates: @pumpfun. Fee examples: retained launch studies. USD equivalents use the study's 14 October 2026 rate of $107.24 per SOL.
 

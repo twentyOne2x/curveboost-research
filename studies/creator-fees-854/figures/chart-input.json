@@ -7,7 +7,9 @@
       "actualSOL": "3,604.63",
       "actualUSD": "$386,560",
       "recalculatedSOL": "6,000.32",
-      "recalculatedUSD": "$643,474"
+      "recalculatedUSD": "$643,474",
+      "increaseUSD": "+$256,914",
+      "increasePct": "+66.5%"
     },
     {
       "handle": "@ramonos",
@@ -15,7 +17,9 @@
       "actualSOL": "807.51",
       "actualUSD": "$86,597",
       "recalculatedSOL": "1,583.14",
-      "recalculatedUSD": "$169,776"
+      "recalculatedUSD": "$169,776",
+      "increaseUSD": "+$83,179",
+      "increasePct": "+96.1%"
     }
   ],
   "notes": [

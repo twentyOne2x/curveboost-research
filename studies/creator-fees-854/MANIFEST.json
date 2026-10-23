@@ -7,8 +7,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2829,
-      "sha256": "3e39d47792e0a505cd1288022b845f92ad7cb589b7cb00264ec411b01db93e91"
+      "bytes": 3057,
+      "sha256": "661dd20212ac86bb8fe6989d5ee4b52fd4d3f582d516f7ba04461c4f05afefb1"
     },
     {
       "path": "data/event-asset-provenance.json",
@@ -47,8 +47,8 @@
     },
     {
       "path": "figures/chart-input.json",
-      "bytes": 682,
-      "sha256": "432fe09179fdc91f58025fbebc6b5d8e23059dd13d348028a013a83da3cee266"
+      "bytes": 811,
+      "sha256": "0cecb1a8d22680c6e881ef98d296d7287ad1a5b496b01969e61f8db7e00600ec"
     },
     {
       "path": "figures/curve-boost-first-hour-fees-v1.png",
@@ -59,6 +59,21 @@
       "path": "figures/curve-boost-first-hour-fees-v1.svg",
       "bytes": 4491,
       "sha256": "72bf43225c2d396fcfa37b965ab3349ef26bcb41a9bddb5fb60642e6a4598ffa"
+    },
+    {
+      "path": "figures/curveboost-first-hour-fees-v2.png",
+      "bytes": 324485,
+      "sha256": "c9518740c273563d42b9f70c981bb0503d0a1544d45c44229279be8d9db65d56"
+    },
+    {
+      "path": "figures/curveboost-first-hour-fees-v2.svg",
+      "bytes": 5697,
+      "sha256": "ae6a0e2e358ebefc92e61e4a4587cb6dcb17b7d3ca6c360c5b9b3b1331e3b97c"
+    },
+    {
+      "path": "figures/uplift-proof.json",
+      "bytes": 904,
+      "sha256": "30081ca44029e6913fdb3c6455f30202af9171cc0181b954a3f813c8958b2eb0"
     },
     {
       "path": "results.json",
@@ -77,8 +92,8 @@
     },
     {
       "path": "scripts/render_chart.py",
-      "bytes": 3381,
-      "sha256": "4beeae0b8b94acd8674cde566735a3ce234ae812e3d52dd46c61ae58d2d82f9d"
+      "bytes": 3880,
+      "sha256": "a056042e4e162c49af487f803c17372e3e40c384574d9f2b965d2208e4df99b4"
     },
     {
       "path": "scripts/replay_events.py",
