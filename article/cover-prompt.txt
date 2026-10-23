@@ -3,7 +3,7 @@ Format: very wide landscape 2.5:1, approximately 2000x800. Clear safe margins. F
 MAIN CHANGE: a large elegant EXPONENTIAL acceleration curve, almost horizontal for a long distance, then turning dramatically upward into a nearly vertical 85-degree climb at the rightmost end, ending in a tight sharp brilliant five-ray burst. It should read as explosive acceleration, not a gently rising swoosh or check mark. One continuous smooth convex curve with no bends or staircase. No rocket object, no arrowhead, no axes, no numbers, no candles. Curve silhouette should look geometrically deliberate. Make curve/burst tall and sculptural on left side, taking substantial height, with subtle chrome light and restrained bloom.
 Name exact: "CurveBoost" as ONE word with capital C and capital B, no space, large bold clean sans-serif. Main title on the right half / center-right, positioned to balance the exponential symbol.
 Exact smaller tagline: "Built for the opening rush"
-At TOP RIGHT, large readable product attribution, significantly larger than in the reference, comfortably inset, separate from the main title: 
+At TOP RIGHT, large readable product attribution, significantly larger than in the reference, comfortably inset, separate from the main title:
 "A product by"
 "attn.markets"
 Use about 38px for A product by and 52px for attn.markets at 2000px image width. It must be bright enough to read in an article thumbnail, not tiny tracked footer text. Quiet professional hierarchy but clearly visible.
