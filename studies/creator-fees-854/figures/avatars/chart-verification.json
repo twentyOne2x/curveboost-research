@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "headerPixelIdenticalToV3": true,
+  "headerRegion": [
+    68,
+    35,
+    1532,
+    103
+  ],
+  "headerPixelSha256": "092d5537ade535868543a7474bb9f409ef790aabb26d3ef018aa9b05713c528d",
+  "allNativeSVGTextStringsUnchanged": true,
+  "chartInputBytesUnchanged": true,
+  "originalAvatarBytesEmbeddedExactly": true,
+  "avatars": {
+    "@esotericpigeon": {
+      "filename": "esotericpigeon.jpg",
+      "sha256": "1e986dda4cb507fc8fa34f2b77de847970b858b09e5212f9300175919b9bc36d",
+      "mimeType": "image/jpeg"
+    },
+    "@ramonos": {
+      "filename": "ramonos.jpg",
+      "sha256": "b5f513859cf769f585518c2a04f8ff1f2d71067766a26c019119899883363b84",
+      "mimeType": "image/jpeg"
+    }
+  },
+  "layout": {
+    "diameter": 72,
+    "x": 70,
+    "rowTopY": [
+      375,
+      780
+    ],
+    "handleX": 164,
+    "gainTextShiftDownPixels": 23
+  },
+  "dimensions": [
+    1600,
+    1380
+  ],
+  "visualInspection": "No clipped header, avatar/handle overlap or Increase collision."
+}

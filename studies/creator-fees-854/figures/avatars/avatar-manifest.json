@@ -1,0 +1,12 @@
+{
+  "@esotericpigeon": {
+    "filename": "esotericpigeon.jpg",
+    "sha256": "1e986dda4cb507fc8fa34f2b77de847970b858b09e5212f9300175919b9bc36d",
+    "mimeType": "image/jpeg"
+  },
+  "@ramonos": {
+    "filename": "ramonos.jpg",
+    "sha256": "b5f513859cf769f585518c2a04f8ff1f2d71067766a26c019119899883363b84",
+    "mimeType": "image/jpeg"
+  }
+}

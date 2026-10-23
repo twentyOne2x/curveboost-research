@@ -1,0 +1,47 @@
+{
+  "scope": "Original public account avatar bytes acquired for fee chart; no generated substitutes, credentials or private metadata.",
+  "profiles": [
+    {
+      "account": "@esotericpigeon",
+      "screen_name": "esotericpigeon",
+      "profileURL": "https://x.com/esotericpigeon",
+      "sourceURL": "https://api.fxtwitter.com/esotericpigeon",
+      "metadataVerification": "Public mirror returned exact requested screen_name and X profile URL; direct X fetch403.",
+      "returnedAvatarURL": "https://pbs.twimg.com/profile_images/1996777028415057920/YzQt3edu_normal.jpg",
+      "requestedNativeAvatarURL": "https://pbs.twimg.com/profile_images/1996777028415057920/YzQt3edu.jpg",
+      "resolvedAvatarURL": "https://pbs.twimg.com/profile_images/1996777028415057920/YzQt3edu.jpg",
+      "nativeResolutionMethod": "Remove _normal size suffix from returned pbs.twimg.com URL; downloaded bytes validated as image.",
+      "retrievedUTC": "2026-10-23T22:43:33.818139Z",
+      "sha256": "1e986dda4cb507fc8fa34f2b77de847970b858b09e5212f9300175919b9bc36d",
+      "dimensions": {
+        "width": 400,
+        "height": 400
+      },
+      "format": "JPEG",
+      "contentType": "image/jpeg",
+      "bytes": 32796,
+      "file": "esotericpigeon.jpg"
+    },
+    {
+      "account": "@ramonos",
+      "screen_name": "ramonos",
+      "profileURL": "https://x.com/ramonos",
+      "sourceURL": "https://api.fxtwitter.com/ramonos",
+      "metadataVerification": "Public mirror returned exact requested screen_name and X profile URL; direct X fetch403.",
+      "returnedAvatarURL": "https://pbs.twimg.com/profile_images/2105634875953078272/bbheYfF4_normal.jpg",
+      "requestedNativeAvatarURL": "https://pbs.twimg.com/profile_images/2105634875953078272/bbheYfF4.jpg",
+      "resolvedAvatarURL": "https://pbs.twimg.com/profile_images/2105634875953078272/bbheYfF4.jpg",
+      "nativeResolutionMethod": "Remove _normal size suffix from returned pbs.twimg.com URL; downloaded bytes validated as image.",
+      "retrievedUTC": "2026-10-23T22:43:33.818195Z",
+      "sha256": "b5f513859cf769f585518c2a04f8ff1f2d71067766a26c019119899883363b84",
+      "dimensions": {
+        "width": 400,
+        "height": 400
+      },
+      "format": "JPEG",
+      "contentType": "image/jpeg",
+      "bytes": 24875,
+      "file": "ramonos.jpg"
+    }
+  ]
+}

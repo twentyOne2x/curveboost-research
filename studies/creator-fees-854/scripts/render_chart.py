@@ -1,8 +1,8 @@
 """Optional Pillow chart renderer from bundled article display values."""
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageOps
 from pathlib import Path
 from html import escape
-import json
+import json,base64,hashlib
 ROOT=Path(__file__).resolve().parents[1]
 
 # Resolve the same accepted-cover identity asset from the enclosing repository.
@@ -26,8 +26,20 @@ class Plate:
   self.s.append(f'<text x="{x}" y="{y}" font-family="Arial, Helvetica, sans-serif" font-weight="{700 if bold else 400}" font-size="{size}" fill="{color}" dominant-baseline="text-before-edge">{escape(t)}</text>')
  def line(self,x,y,x2,y2,color=RULE,width=2):
   self.d.line((x*2,y*2,x2*2,y2*2),fill=color,width=width*2);self.s.append(f'<line x1="{x}" y1="{y}" x2="{x2}" y2="{y2}" stroke="{color}" stroke-width="{width}"/>')
+ def avatar(self,handle,x,y,size=72):
+  manifest=json.loads((ROOT/'figures/avatars/avatar-manifest.json').read_text())
+  asset=manifest[handle]
+  path=ROOT/'figures/avatars'/asset['filename'];raw=path.read_bytes()
+  assert hashlib.sha256(raw).hexdigest()==asset['sha256']
+  pic=Image.open(path).convert('RGB');pic=ImageOps.fit(pic,(size*2,size*2),method=Image.Resampling.LANCZOS,centering=(.5,.5))
+  mask=Image.new('L',(size*2,size*2),0);ImageDraw.Draw(mask).ellipse((0,0,size*2-1,size*2-1),fill=255)
+  self.im.paste(pic,(x*2,y*2),mask)
+  ident='avatar-'+handle.lstrip('@')
+  self.s.append(f'<defs><clipPath id="{ident}"><circle cx="{x+size/2}" cy="{y+size/2}" r="{size/2}"/></clipPath></defs>')
+  uri='data:'+asset['mimeType']+';base64,'+base64.b64encode(raw).decode()
+  self.s.append(f'<image x="{x}" y="{y}" width="{size}" height="{size}" preserveAspectRatio="xMidYMid slice" clip-path="url(#{ident})" href="{uri}"/>')
  def save(self):
-  self.im.resize((W,H),Image.Resampling.LANCZOS).save(OUT/'curveboost-first-hour-fees-v3.png');(OUT/'curveboost-first-hour-fees-v3.svg').write_text(''.join(self.s)+'</svg>')
+  self.im.resize((W,H),Image.Resampling.LANCZOS).save(OUT/'curveboost-first-hour-fees-v4.png');(OUT/'curveboost-first-hour-fees-v4.svg').write_text(''.join(self.s)+'</svg>')
 def render(data):
  assert len(data['rows'])==2
  # Uplift is independently computed from exact lamports, never rounded display differences.
@@ -46,10 +58,11 @@ def render(data):
   assert gainUSD==r['increaseUSD'] and gainPct==r['increasePct']
   y=385+i*405
   c.line(68,y-22,1532,y-22)
-  c.text(70,y,r['handle'],36,bold=True);c.text(1150,y+5,f"{r['launches']} launches",29,color=CHROME)
-  c.text(72,y+63,'INCREASE',23,color=GAIN,bold=True)
-  c.text(68,y+98,gainUSD,83,color=GAIN,bold=True)
-  c.text(710,y+116,gainPct,58,color=GAIN,bold=True)
+  c.avatar(r['handle'],70,y-10,72)
+  c.text(164,y+8,r['handle'],36,bold=True);c.text(1150,y+15,f"{r['launches']} launches",29,color=CHROME)
+  c.text(72,y+86,'INCREASE',23,color=GAIN,bold=True)
+  c.text(68,y+121,gainUSD,83,color=GAIN,bold=True)
+  c.text(710,y+139,gainPct,58,color=GAIN,bold=True)
   c.text(72,y+218,'Recorded fees',28,color=CHROME,bold=True)
   c.text(840,y+218,'Curve volume at 0.95%',28,color=CHROME,bold=True)
   c.text(68,y+260,r['actualSOL']+' SOL',51,bold=True)

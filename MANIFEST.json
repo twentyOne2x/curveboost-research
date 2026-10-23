@@ -25,18 +25,18 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 841,
-      "sha256": "2fb8829e1cf72b8833a00f453b7812b46b377929b07cddcafc46011bc5d7f606"
+      "bytes": 1167,
+      "sha256": "12f5f19c25a353c3c596825f1c8c479715707b16056b26310271b1bdde5fd3b9"
     },
     {
       "path": "VERIFICATION.md",
-      "bytes": 2222,
-      "sha256": "783034faad5a2d5d6c3748e870138e63800fc40bf5e25911ed197d05d3bb4004"
+      "bytes": 2704,
+      "sha256": "b6864debae55da0111db5cd3b9f48d628c592508a72fdcae7cbbdb4dbfdedcc6"
     },
     {
       "path": "article/README.md",
-      "bytes": 1536,
-      "sha256": "4750e53d420ad271e5cd0a207d8ce9c8dfa452477ef486c57dcdf80d978ddbd6"
+      "bytes": 1791,
+      "sha256": "c1765aec6ac62073175461a021aedfb9f105c01594e573b37fe1de1b84d39d0c"
     },
     {
       "path": "article/boost-draft.txt",
@@ -230,8 +230,8 @@
     },
     {
       "path": "studies/creator-fees-854/MANIFEST.json",
-      "bytes": 3772,
-      "sha256": "b6cd903da8e37849ed30105cfbe716ad3b59bd1fcec571bd896b64509e1a39ff"
+      "bytes": 4970,
+      "sha256": "398ca2bdb8d4ac71c7f0eceb012c85cfad2c4a46bd8c63fe41df42bf4a4a0bb9"
     },
     {
       "path": "studies/creator-fees-854/METHODOLOGY.md",
@@ -240,8 +240,8 @@
     },
     {
       "path": "studies/creator-fees-854/README.md",
-      "bytes": 3226,
-      "sha256": "363e84393a2d533362de73c123712839ac7ffdd96c096a81ed34d8ef8b4cea6d"
+      "bytes": 3453,
+      "sha256": "1a29dd4acb816621ebfe7ccaa92e80bb82b0be165f9e0de36776a563e5f1ee98"
     },
     {
       "path": "studies/creator-fees-854/data/event-asset-provenance.json",
@@ -267,6 +267,31 @@
       "path": "studies/creator-fees-854/data/provenance.json",
       "bytes": 2027,
       "sha256": "fe0554effc5e73ee10ad12ea0c0f7265b41b8200e98445ea78cc96d3292ee112"
+    },
+    {
+      "path": "studies/creator-fees-854/figures/avatars/avatar-manifest.json",
+      "bytes": 342,
+      "sha256": "497a36779c1385cc9c1a528e95713950641c9336310effc2023e95adc4ec7258"
+    },
+    {
+      "path": "studies/creator-fees-854/figures/avatars/chart-verification.json",
+      "bytes": 995,
+      "sha256": "0a867bbd1a3d0ba5350e14dedcba75be5a7326adc69f5974d3e1a27870b794bc"
+    },
+    {
+      "path": "studies/creator-fees-854/figures/avatars/esotericpigeon.jpg",
+      "bytes": 32796,
+      "sha256": "1e986dda4cb507fc8fa34f2b77de847970b858b09e5212f9300175919b9bc36d"
+    },
+    {
+      "path": "studies/creator-fees-854/figures/avatars/provenance.json",
+      "bytes": 2319,
+      "sha256": "5abf11d83b5f3ba760e56b3d0f4626d30b09698b35fbf55975197736964f4f6b"
+    },
+    {
+      "path": "studies/creator-fees-854/figures/avatars/ramonos.jpg",
+      "bytes": 24875,
+      "sha256": "b5f513859cf769f585518c2a04f8ff1f2d71067766a26c019119899883363b84"
     },
     {
       "path": "studies/creator-fees-854/figures/boost-fees-v4.png",
@@ -314,6 +339,16 @@
       "sha256": "a87f0cd4f7f1ff6c006700579ea3323f8d2fa27e47f01550aa3a4e5e6180f805"
     },
     {
+      "path": "studies/creator-fees-854/figures/curveboost-first-hour-fees-v4.png",
+      "bytes": 323526,
+      "sha256": "e31a3defb516996f594d531877bd6b350a2961761aeb851a3fcb5e83c233d1d8"
+    },
+    {
+      "path": "studies/creator-fees-854/figures/curveboost-first-hour-fees-v4.svg",
+      "bytes": 831120,
+      "sha256": "a2242d8a79e254d6e475f4f11ccab61d79d18c290293229c172bd11322c2c920"
+    },
+    {
       "path": "studies/creator-fees-854/figures/uplift-proof.json",
       "bytes": 904,
       "sha256": "30081ca44029e6913fdb3c6455f30202af9171cc0181b954a3f813c8958b2eb0"
@@ -335,8 +370,8 @@
     },
     {
       "path": "studies/creator-fees-854/scripts/render_chart.py",
-      "bytes": 3821,
-      "sha256": "7298bc120dca24a1c790337d70c5f80df65ab5f806c83315d2b58703ddce13b5"
+      "bytes": 4808,
+      "sha256": "8f1e990eab4b522e5cf43c4b26a055870ee1abfeba02ded7589a67dc77cbb493"
     },
     {
       "path": "studies/creator-fees-854/scripts/replay_events.py",

@@ -7,8 +7,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3226,
-      "sha256": "363e84393a2d533362de73c123712839ac7ffdd96c096a81ed34d8ef8b4cea6d"
+      "bytes": 3453,
+      "sha256": "1a29dd4acb816621ebfe7ccaa92e80bb82b0be165f9e0de36776a563e5f1ee98"
     },
     {
       "path": "data/event-asset-provenance.json",
@@ -34,6 +34,31 @@
       "path": "data/provenance.json",
       "bytes": 2027,
       "sha256": "fe0554effc5e73ee10ad12ea0c0f7265b41b8200e98445ea78cc96d3292ee112"
+    },
+    {
+      "path": "figures/avatars/avatar-manifest.json",
+      "bytes": 342,
+      "sha256": "497a36779c1385cc9c1a528e95713950641c9336310effc2023e95adc4ec7258"
+    },
+    {
+      "path": "figures/avatars/chart-verification.json",
+      "bytes": 995,
+      "sha256": "0a867bbd1a3d0ba5350e14dedcba75be5a7326adc69f5974d3e1a27870b794bc"
+    },
+    {
+      "path": "figures/avatars/esotericpigeon.jpg",
+      "bytes": 32796,
+      "sha256": "1e986dda4cb507fc8fa34f2b77de847970b858b09e5212f9300175919b9bc36d"
+    },
+    {
+      "path": "figures/avatars/provenance.json",
+      "bytes": 2319,
+      "sha256": "5abf11d83b5f3ba760e56b3d0f4626d30b09698b35fbf55975197736964f4f6b"
+    },
+    {
+      "path": "figures/avatars/ramonos.jpg",
+      "bytes": 24875,
+      "sha256": "b5f513859cf769f585518c2a04f8ff1f2d71067766a26c019119899883363b84"
     },
     {
       "path": "figures/boost-fees-v4.png",
@@ -81,6 +106,16 @@
       "sha256": "a87f0cd4f7f1ff6c006700579ea3323f8d2fa27e47f01550aa3a4e5e6180f805"
     },
     {
+      "path": "figures/curveboost-first-hour-fees-v4.png",
+      "bytes": 323526,
+      "sha256": "e31a3defb516996f594d531877bd6b350a2961761aeb851a3fcb5e83c233d1d8"
+    },
+    {
+      "path": "figures/curveboost-first-hour-fees-v4.svg",
+      "bytes": 831120,
+      "sha256": "a2242d8a79e254d6e475f4f11ccab61d79d18c290293229c172bd11322c2c920"
+    },
+    {
       "path": "figures/uplift-proof.json",
       "bytes": 904,
       "sha256": "30081ca44029e6913fdb3c6455f30202af9171cc0181b954a3f813c8958b2eb0"
@@ -102,8 +137,8 @@
     },
     {
       "path": "scripts/render_chart.py",
-      "bytes": 3821,
-      "sha256": "7298bc120dca24a1c790337d70c5f80df65ab5f806c83315d2b58703ddce13b5"
+      "bytes": 4808,
+      "sha256": "8f1e990eab4b522e5cf43c4b26a055870ee1abfeba02ded7589a67dc77cbb493"
     },
     {
       "path": "scripts/replay_events.py",
