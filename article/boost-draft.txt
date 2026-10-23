@@ -30,4 +30,4 @@ Boost is still in development, and part of our ambition to build the best launch
 
 Race data: @Circular_fi (22-23 October 2026). Fee rates: @pumpfun. Fee examples: retained launch studies. USD equivalents use the study's 14 October 2026 rate of $107.24 per SOL.
 
-@attndotmarkets Data, methodology and calculations
+@attndotmarkets · Data, methodology and calculations

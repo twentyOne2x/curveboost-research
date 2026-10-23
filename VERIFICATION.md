@@ -8,6 +8,6 @@
 - All 854 launch rows reproduce exact Pigeon/Ram SOL totals and article USD display values.
 - Separate normalized event replay: 1,759,593 events, 8,540 exact per-launch phase-field equalities, independent event-level 95-basis-point calculation.
 - Helius packaging: all 595 compressed response hashes, sample uncompressed hash, archive digest, portable imports and 12 PDA pairs checked. Full decoding was retained from the completed pilot; packaging did not repeat it. Pilot closure limitations remain in its own methods and receipt.
-- Draft snapshot: 404 words; the original fee examples and all three images retained; account tags and research link added.
+- Draft snapshot: 405 words; the original fee examples and all three images retained; account tags and research link added.
 
 These checks reproduce the retained research inputs and arithmetic. Dataset provenance and observational/counterfactual definitions are documented in the corresponding study folders.
