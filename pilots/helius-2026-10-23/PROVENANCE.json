@@ -1,0 +1,19 @@
+{
+  "retainedSource": "ramonos-public-build/repo, retained 2026-10-08 investigation deliverable",
+  "analyzerOriginalSha256": "cd82f06acf2806b4a29a70528c77739b330ea0cfcd40bc0ac9cd6e9a5cf1b38f",
+  "analyzerPortableSha256": "4d60d6fcd6609b0324caf7f8e59279cb13319ffca4559f37d2525b97e98729c2",
+  "analyzerChange": "Only SOURCE changed from a machine-local absolute path to adjacent vendor directory.",
+  "originalManifestSha256": "2faee4afa6f324a9dae7a566fd9e02bab06a7726df59527383b694f22cfbc017",
+  "portableManifestSha256": "f429f65766c0334de508bd43bc57777efe5ae60371fb166b766b1f4a6376b32a",
+  "manifestChange": "Removed machine-local source and candidate paths, replaced with portable source archive name and updated execution status. Selection and subjects unchanged. Historical capture inputSha256 refers to original manifest.",
+  "vendoredFiles": {
+    "vendor/tools/decoder.py": "fdfd4e5251ea389b7866ba8e310258a12428d9a81a153f6a86d6b8cb1924fe4b",
+    "vendor/tools/launchlab_decoder.py": "86e1b85cbc337758fa117d6a73ab1763292332ee7d2d53b9341afffb22142ed0",
+    "vendor/tools/pump_pda.py": "1d761af73e24191e93e7ac13b6a0026d53c715426e6d349c8d62100a09222b5c",
+    "vendor/schemas/pump.json": "fb5cce35e21a1b6a74d192eea11fe805602fa357acc7051dd1492fc09714d467",
+    "vendor/schemas/pump-sdk-package.json": "24b0bdeb902d06848febb829adb9a7231b68b1fb7d1b9b351b1cef78b7ada86f",
+    "vendor/schemas/pump_amm.json": "b7d8c57a4d9c4dd0109a9ab893052352333252d4eedced10ac091d4d66cab89b",
+    "vendor/schemas/pump_fees.json": "f111d2e5c9aa3d4e64d6a4e6b6f34300ccb1eaf6abc46834fe491836dc90aa74"
+  },
+  "license": "Original retained tools: MIT, Copyright (c) 2026 twentyOne2x. Pump schemas: @pump-fun/pump-sdk 4.0.0; retained package metadata declares MIT, author pump-fun. No separate upstream LICENSE/NOTICE distributed in retained package."
+}

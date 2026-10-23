@@ -1,0 +1,25 @@
+{
+  "subtitle": "First-hour creator fees across 854 launches",
+  "rows": [
+    {
+      "handle": "@esotericpigeon",
+      "launches": 583,
+      "actualSOL": "3,604.63",
+      "actualUSD": "$386,560",
+      "recalculatedSOL": "6,000.32",
+      "recalculatedUSD": "$643,474"
+    },
+    {
+      "handle": "@ramonos",
+      "launches": 271,
+      "actualSOL": "807.51",
+      "actualUSD": "$86,597",
+      "recalculatedSOL": "1,583.14",
+      "recalculatedUSD": "$169,776"
+    }
+  ],
+  "notes": [
+    "All traders included \u00b7 Curve trades repriced at 0.95% \u00b7 Existing pool fees retained",
+    "USD at 14 Oct research rate: $107.24 per SOL"
+  ]
+}

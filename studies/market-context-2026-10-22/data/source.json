@@ -1,0 +1,10 @@
+{
+  "url": "https://tehcscreener.com/api/v1/launchpads/series?window=1d",
+  "observedUtc": "2026-10-23T16:20:02.719425+00:00",
+  "http": 200,
+  "bytes": 1356,
+  "sha256": "d520bf1d6257d53566d782980925d262afafd6395aa7cb9ef611e1d372ab13ea",
+  "path": "data/launchpad-series.json",
+  "contentType": "application/json",
+  "etag": null
+}

@@ -1,0 +1,36 @@
+{
+  "inputSha256": "7a8a07d0544561786ba5b879ca876c33af0c6893bb3d41c88bb6ed4fc597c3a1",
+  "rows": 854,
+  "quoteAsset": "native SOL / WSOL",
+  "integerScale": "1000000000 lamports per SOL",
+  "valuation": {
+    "USDperSOL": "107.24",
+    "capturedUTC": "2026-10-14T12:02:16.847966Z",
+    "kind": "single historical display valuation, not event-time USD or present value"
+  },
+  "formula": "actual=sum(curve_actualFeeRaw+amm_actualFeeRaw); counterfactual=sum(curve_fee95FloorRaw+amm_actualFeeRaw). curve_fee95FloorRaw is the saved SUM over events of floor(principalLamports*95/10000).",
+  "results": [
+    {
+      "cohort": "pigeon",
+      "launches": 583,
+      "actualFeeLamports": "3604627644417",
+      "curveOnly95FeeLamports": "6000318444577",
+      "actualFeeSOL": "3604.627644417",
+      "curveOnly95FeeSOL": "6000.318444577",
+      "upliftSOL": "2395.690800160",
+      "actualUSDHistoricalDisplay": "386560",
+      "curveOnly95USDHistoricalDisplay": "643474"
+    },
+    {
+      "cohort": "ram",
+      "launches": 271,
+      "actualFeeLamports": "807507512206",
+      "curveOnly95FeeLamports": "1583142686732",
+      "actualFeeSOL": "807.507512206",
+      "curveOnly95FeeSOL": "1583.142686732",
+      "upliftSOL": "775.635174526",
+      "actualUSDHistoricalDisplay": "86597",
+      "curveOnly95USDHistoricalDisplay": "169776"
+    }
+  ]
+}

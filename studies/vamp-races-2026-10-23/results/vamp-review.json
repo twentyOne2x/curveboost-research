@@ -1,0 +1,396 @@
+{
+  "sourceZip": "vamp_races_2026-10-23.zip",
+  "sourceSha256": "1ae8d28f9c6e0858167943525f510c096a3a8cfcc6373a728b3c3135e7132e77",
+  "membersSha256": {
+    "races.csv": "f2027d4e37af0c025bc1084ff96b05cf6980da70a272e4d2c7c1d302a6c990b5",
+    "race_members.csv": "97d6da6c919a0a1a72933653d5e4e63ce668d924b9c7bcbeb9bbbfce2707a29d",
+    "all_mints.csv": "a44624463775379f1d7a9e623874335fe6c3fdcbac68161ca00f48f9455f0496",
+    "README.txt": "210dec308a641058f580e1c0c2b085331072ca760f77275afae04b4e14638be6"
+  },
+  "sourceWindowUtc": [
+    "2026-10-22 13:00:00",
+    "2026-10-23 13:00:00"
+  ],
+  "counts": {
+    "races": 2511,
+    "members": 8821,
+    "allMints": 18075
+  },
+  "cohorts": [
+    {
+      "label": "all",
+      "races": 2511,
+      "members": 8821,
+      "leaderWins1h": {
+        "yes": 2222,
+        "denominator": 2506,
+        "pct": 88.66719872306464
+      },
+      "leaderWinsAfter2m": {
+        "yes": 1587,
+        "denominator": 2506,
+        "pct": 63.32801276935355
+      },
+      "leaderWins24h": {
+        "yes": 230,
+        "denominator": 252,
+        "pct": 91.26984126984127
+      },
+      "firstLaunchWins1h": {
+        "yes": 1333,
+        "denominator": 2511,
+        "pct": 53.086419753086425
+      },
+      "firstHourWinnerWins24h": {
+        "yes": 251,
+        "denominator": 252,
+        "pct": 99.60317460317461
+      },
+      "uniformRandomAllMembersMeanPct": 38.64305869590922,
+      "uniformRandomActiveMembersMeanPct": null,
+      "volume1hUsd": 122331526.0,
+      "postgradVolume1hUsd": 22206033.0,
+      "postgradSharePct": 18.152338751991046,
+      "aggregateOwn2mVolumePctOf1h": 32.388143347447496
+    },
+    {
+      "label": "contested",
+      "races": 1219,
+      "members": 5534,
+      "leaderWins1h": {
+        "yes": 1007,
+        "denominator": 1219,
+        "pct": 82.6086956521739
+      },
+      "leaderWinsAfter2m": {
+        "yes": 718,
+        "denominator": 1219,
+        "pct": 58.90073831009024
+      },
+      "leaderWins24h": {
+        "yes": 120,
+        "denominator": 137,
+        "pct": 87.59124087591242
+      },
+      "firstLaunchWins1h": {
+        "yes": 577,
+        "denominator": 1219,
+        "pct": 47.333880229696476
+      },
+      "firstHourWinnerWins24h": {
+        "yes": 137,
+        "denominator": 137,
+        "pct": 100.0
+      },
+      "uniformRandomAllMembersMeanPct": 32.74005493500886,
+      "uniformRandomActiveMembersMeanPct": 38.77844654367117,
+      "volume1hUsd": 102172319.0,
+      "postgradVolume1hUsd": 14174779.0,
+      "postgradSharePct": 13.873404400266182,
+      "aggregateOwn2mVolumePctOf1h": 32.83014061763637
+    },
+    {
+      "label": "tight_all_export_rounded",
+      "races": 789,
+      "members": 3166,
+      "leaderWins1h": {
+        "yes": 626,
+        "denominator": 789,
+        "pct": 79.34093789607097
+      },
+      "leaderWinsAfter2m": {
+        "yes": 285,
+        "denominator": 789,
+        "pct": 36.12167300380228
+      },
+      "leaderWins24h": {
+        "yes": 60,
+        "denominator": 72,
+        "pct": 83.33333333333334
+      },
+      "firstLaunchWins1h": {
+        "yes": 350,
+        "denominator": 789,
+        "pct": 44.35994930291508
+      },
+      "firstHourWinnerWins24h": {
+        "yes": 71,
+        "denominator": 72,
+        "pct": 98.61111111111111
+      },
+      "uniformRandomAllMembersMeanPct": 35.80334152846016,
+      "uniformRandomActiveMembersMeanPct": null,
+      "volume1hUsd": 29031211.0,
+      "postgradVolume1hUsd": 4027480.0,
+      "postgradSharePct": 13.8729314460909,
+      "aggregateOwn2mVolumePctOf1h": 41.01767576970868
+    },
+    {
+      "label": "tight_contested_export_rounded",
+      "races": 494,
+      "members": 2300,
+      "leaderWins1h": {
+        "yes": 368,
+        "denominator": 494,
+        "pct": 74.49392712550608
+      },
+      "leaderWinsAfter2m": {
+        "yes": 163,
+        "denominator": 494,
+        "pct": 32.99595141700405
+      },
+      "leaderWins24h": {
+        "yes": 45,
+        "denominator": 55,
+        "pct": 81.81818181818183
+      },
+      "firstLaunchWins1h": {
+        "yes": 209,
+        "denominator": 494,
+        "pct": 42.30769230769231
+      },
+      "firstHourWinnerWins24h": {
+        "yes": 55,
+        "denominator": 55,
+        "pct": 100.0
+      },
+      "uniformRandomAllMembersMeanPct": 32.68454411179063,
+      "uniformRandomActiveMembersMeanPct": 38.858993570532036,
+      "volume1hUsd": 28723607.0,
+      "postgradVolume1hUsd": 4027130.0,
+      "postgradSharePct": 14.020279556115636,
+      "aggregateOwn2mVolumePctOf1h": 40.503659585650226
+    },
+    {
+      "label": "all_flag_sensitivity",
+      "races": 2369,
+      "members": 8144,
+      "leaderWins1h": {
+        "yes": 2101,
+        "denominator": 2369,
+        "pct": 88.68720979316167
+      },
+      "leaderWinsAfter2m": {
+        "yes": 1483,
+        "denominator": 2369,
+        "pct": 62.600253271422545
+      },
+      "leaderWins24h": {
+        "yes": 176,
+        "denominator": 192,
+        "pct": 91.66666666666666
+      },
+      "firstLaunchWins1h": {
+        "yes": 1248,
+        "denominator": 2369,
+        "pct": 52.68045588856057
+      },
+      "firstHourWinnerWins24h": {
+        "yes": 191,
+        "denominator": 192,
+        "pct": 99.47916666666666
+      },
+      "uniformRandomAllMembersMeanPct": 38.7171459558036,
+      "uniformRandomActiveMembersMeanPct": null,
+      "volume1hUsd": 90353626.0,
+      "postgradVolume1hUsd": 19966168.0,
+      "postgradSharePct": 22.09780490713234,
+      "aggregateOwn2mVolumePctOf1h": 38.36279464866191
+    },
+    {
+      "label": "contested_flag_sensitivity",
+      "races": 1154,
+      "members": 5055,
+      "leaderWins1h": {
+        "yes": 954,
+        "denominator": 1154,
+        "pct": 82.66897746967071
+      },
+      "leaderWinsAfter2m": {
+        "yes": 673,
+        "denominator": 1154,
+        "pct": 58.31889081455805
+      },
+      "leaderWins24h": {
+        "yes": 97,
+        "denominator": 109,
+        "pct": 88.9908256880734
+      },
+      "firstLaunchWins1h": {
+        "yes": 547,
+        "denominator": 1154,
+        "pct": 47.400346620450605
+      },
+      "firstHourWinnerWins24h": {
+        "yes": 109,
+        "denominator": 109,
+        "pct": 100.0
+      },
+      "uniformRandomAllMembersMeanPct": 32.8915916622339,
+      "uniformRandomActiveMembersMeanPct": 39.02412810736799,
+      "volume1hUsd": 73685782.0,
+      "postgradVolume1hUsd": 11935054.0,
+      "postgradSharePct": 16.197227845122143,
+      "aggregateOwn2mVolumePctOf1h": 40.01504387915704
+    },
+    {
+      "label": "all_without_extreme_volume_flags",
+      "races": 2493,
+      "members": 8541,
+      "leaderWins1h": {
+        "yes": 2210,
+        "denominator": 2488,
+        "pct": 88.82636655948552
+      },
+      "leaderWinsAfter2m": {
+        "yes": 1575,
+        "denominator": 2488,
+        "pct": 63.30385852090033
+      },
+      "leaderWins24h": {
+        "yes": 229,
+        "denominator": 251,
+        "pct": 91.23505976095618
+      },
+      "firstLaunchWins1h": {
+        "yes": 1321,
+        "denominator": 2493,
+        "pct": 52.98836742880064
+      },
+      "firstHourWinnerWins24h": {
+        "yes": 250,
+        "denominator": 251,
+        "pct": 99.60159362549801
+      },
+      "uniformRandomAllMembersMeanPct": 38.787977579770114,
+      "uniformRandomActiveMembersMeanPct": null,
+      "volume1hUsd": 93685268.0,
+      "postgradVolume1hUsd": 20146033.0,
+      "postgradSharePct": 21.50394979923631,
+      "aggregateOwn2mVolumePctOf1h": 38.57809319604017
+    },
+    {
+      "label": "graduated_races",
+      "races": 252,
+      "members": 1584,
+      "leaderWins1h": {
+        "yes": 190,
+        "denominator": 252,
+        "pct": 75.39682539682539
+      },
+      "leaderWinsAfter2m": {
+        "yes": 173,
+        "denominator": 252,
+        "pct": 68.65079365079364
+      },
+      "leaderWins24h": {
+        "yes": 12,
+        "denominator": 15,
+        "pct": 80.0
+      },
+      "firstLaunchWins1h": {
+        "yes": 119,
+        "denominator": 252,
+        "pct": 47.22222222222222
+      },
+      "firstHourWinnerWins24h": {
+        "yes": 15,
+        "denominator": 15,
+        "pct": 100.0
+      },
+      "uniformRandomAllMembersMeanPct": 28.97847238824156,
+      "uniformRandomActiveMembersMeanPct": null,
+      "volume1hUsd": 78285822.0,
+      "postgradVolume1hUsd": 22206033.0,
+      "postgradSharePct": 28.36533159222624,
+      "aggregateOwn2mVolumePctOf1h": 17.11140492335892
+    }
+  ],
+  "timingContested": {
+    "races": 1219,
+    "racesWithMemberNotBornAtRaceMinute2": 799,
+    "leadersNotBornAtRaceMinute2": 365,
+    "leadersOwn2mWindowNotCompleteAtRaceMinute2": 667
+  },
+  "leadBandsAll": [
+    {
+      "label": "at_least_5x",
+      "leaderWins1h": {
+        "yes": 837,
+        "denominator": 858,
+        "pct": 97.55244755244755
+      }
+    },
+    {
+      "label": "2_to_5x",
+      "leaderWins1h": {
+        "yes": 685,
+        "denominator": 736,
+        "pct": 93.07065217391305
+      }
+    },
+    {
+      "label": "below_1_25x",
+      "leaderWins1h": {
+        "yes": 263,
+        "denominator": 393,
+        "pct": 66.92111959287533
+      }
+    }
+  ],
+  "openingShares": {
+    "allPositiveMembers": {
+      "positiveMembers": 8758,
+      "medianOwn2mSharePct": 99.54690074635876,
+      "membersWithAtLeast90PctInOwn2m": 6128,
+      "membersWithAtLeast90PctInOwn2mPct": 69.97031285681663
+    },
+    "allWinners": {
+      "positiveMembers": 2506,
+      "medianOwn2mSharePct": 91.55061783398124,
+      "membersWithAtLeast90PctInOwn2m": 1279,
+      "membersWithAtLeast90PctInOwn2mPct": 51.03750997605746
+    },
+    "contestedWinners": {
+      "positiveMembers": 1219,
+      "medianOwn2mSharePct": 77.58600673348555,
+      "membersWithAtLeast90PctInOwn2m": 500,
+      "membersWithAtLeast90PctInOwn2mPct": 41.01722723543889
+    }
+  },
+  "graduation": {
+    "racesWithGraduate": 252,
+    "racesWithMultipleGraduates": 38,
+    "firstGraduateIs1hWinner": 203,
+    "firstGraduateIs2mLeader": 169,
+    "graduatedMembers": 302,
+    "medianTimeToGraduationMin": 7.85,
+    "graduatedUnder2Min": 71,
+    "graduationTimeMethod": "Source proxy: last bonding-curve trade, not independently verified migration receipt",
+    "verificationStatus": "Export proxy only; selected migration discrepancies documented separately in docs/pilot-migration-discrepancies.json. Export not silently corrected."
+  },
+  "raceFlags": {
+    "edge_of_24h_window_members_may_be_missing": 95,
+    "one_or_zero_active_members": 1292,
+    "contains_possible_volume_bot": 18,
+    "tie_for_2m_leader": 26,
+    "loose_name_match": 24,
+    "h24_incomplete": 2259,
+    "no_2m_volume": 5
+  },
+  "memberFlags": {
+    "no_image_in_db": 4712,
+    "suspicious_tx_share_gt_20pct": 665,
+    "extreme_curve_volume_1h_possible_volume_bot": 19,
+    "prices_start_after_first_curve_trade": 33,
+    "h24_incomplete": 7934
+  },
+  "curveFamilies": {
+    "SOL standard": 2667,
+    "other quote": 3350,
+    "SOL flag81": 2804
+  },
+  "noNetworkAcquisition": true,
+  "proof": "Export arithmetic and ranks verified; underlying chain rows and creator identities not independently verified.",
+  "phaseVolumeStatus": "Source-proxy USD phase allocation, not independently verified creator-fee accrual."
+}

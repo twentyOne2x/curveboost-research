@@ -1,0 +1,81 @@
+{
+  "files": [
+    {
+      "path": "METHODOLOGY.md",
+      "bytes": 3631,
+      "sha256": "ca9a413e10a77b0785298db44e148c23dda2f2dd606c96c9552e462b77fd2ce7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2732,
+      "sha256": "6224f21f9ad7d673f8006bdf1feb459e8259699715ad22c314a447d7539ab82f"
+    },
+    {
+      "path": "data/event-asset-provenance.json",
+      "bytes": 388046,
+      "sha256": "2c1c25ea38900f2a3bf6514c33efafb281aa103db0687c86de414b40a3bd4d52"
+    },
+    {
+      "path": "data/event-replay-verification.json",
+      "bytes": 345,
+      "sha256": "be38c3822c89f434c723c3c7bc40bcd8b8b4bb1eeeba9063be0fd63802a4821a"
+    },
+    {
+      "path": "data/historical-sol-usd.json",
+      "bytes": 911,
+      "sha256": "6e834335e0d7435b88c239bbfa8b4178471ac58e94074694f05634589dddccea"
+    },
+    {
+      "path": "data/launches-854.csv",
+      "bytes": 208343,
+      "sha256": "7a8a07d0544561786ba5b879ca876c33af0c6893bb3d41c88bb6ed4fc597c3a1"
+    },
+    {
+      "path": "data/provenance.json",
+      "bytes": 2027,
+      "sha256": "fe0554effc5e73ee10ad12ea0c0f7265b41b8200e98445ea78cc96d3292ee112"
+    },
+    {
+      "path": "figures/boost-fees-v4.png",
+      "bytes": 248093,
+      "sha256": "8e93d1b31c436edd55b9dd2127259c73de7a24f67d6e901210c29a45bad8b314"
+    },
+    {
+      "path": "figures/boost-fees-v4.svg",
+      "bytes": 4463,
+      "sha256": "2b31c95ed3d7449173358796cf090783acef89f3586ff1cd0b26b1ca1cf7036b"
+    },
+    {
+      "path": "figures/chart-input.json",
+      "bytes": 651,
+      "sha256": "ca225bbabde6898b5c2f898fd2a15428ef15194e094f222f2b7fba69e2691df2"
+    },
+    {
+      "path": "results.json",
+      "bytes": 1343,
+      "sha256": "39d59d6d97421aff6aa93dc4ff3656d110250f319edae31f55c047c518e6b574"
+    },
+    {
+      "path": "scripts/calculate.py",
+      "bytes": 2014,
+      "sha256": "2f547c92dc25a50b7fa65f17f9b8cecc899b9401671816789b94217020163a6a"
+    },
+    {
+      "path": "scripts/export_events.py",
+      "bytes": 4560,
+      "sha256": "89ae9d0185409741e178f4a7eb5153f6991ca672ce0c61218f7aaa5e70dd0958"
+    },
+    {
+      "path": "scripts/render_chart.py",
+      "bytes": 2971,
+      "sha256": "8aa75223e35b7fca3dce5df07c77967d39631bbea16054b0cda31104b191b191"
+    },
+    {
+      "path": "scripts/replay_events.py",
+      "bytes": 2550,
+      "sha256": "8bdf3122d2a72618cb0878a74ee6f56f86867dec5596bab9c8acb8217ab37e72"
+    }
+  ],
+  "exclusion": "MANIFEST.json excludes itself; large normalized event asset is separately hash-bound in data/event-asset-provenance.json.",
+  "offlineOnly": true
+}

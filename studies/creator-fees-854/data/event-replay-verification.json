@@ -1,0 +1,8 @@
+{
+  "events": 1759593,
+  "launches": 854,
+  "phaseFieldEqualities": 8540,
+  "assetSha256": "9afb5773f3f4e71e7bc6b58e28052c766b2a4444c5ccb073755b5391e828018b",
+  "result": "PASS",
+  "method": "95bps floor independently computed from every event principal; complete per-launch phase volume/observed fee/floor/eventcount/zero-feecount equality."
+}

@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "sourceHashesVerified": true,
+  "sourceCounts": {
+    "races": 2511,
+    "members": 8821,
+    "allMints": 18075
+  },
+  "contestedRaces": 1219,
+  "contestedMembers": 5534,
+  "strongestOpening": {
+    "n": 1007,
+    "d": 1219,
+    "displayPct": "82.6%"
+  },
+  "firstLaunched": {
+    "n": 577,
+    "d": 1219,
+    "displayPct": "47.3%"
+  },
+  "scope": "Offline arithmetic and export role checks. No RPC and no causal or online predictor claim."
+}

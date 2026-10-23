@@ -1,0 +1,337 @@
+{
+  "sourceZipSha256": "1ae8d28f9c6e0858167943525f510c096a3a8cfcc6373a728b3c3135e7132e77",
+  "sourceMembersSha256": "97d6da6c919a0a1a72933653d5e4e63ce668d924b9c7bcbeb9bbbfce2707a29d",
+  "sourceRacesSha256": "f2027d4e37af0c025bc1084ff96b05cf6980da70a272e4d2c7c1d302a6c990b5",
+  "reviewLabel": "reported graduation proxy; NOT on-chain verified",
+  "sourceColumns": [
+    "race_id",
+    "race_size",
+    "race_ticker",
+    "roles",
+    "link_type",
+    "rank_2m",
+    "rank_1h",
+    "rank_24h",
+    "rank_to_date",
+    "rank_after_2m",
+    "mint",
+    "ticker",
+    "name",
+    "image_uri",
+    "image_key_type",
+    "launch_utc",
+    "delay_vs_race_start_min",
+    "curve_family",
+    "graduated_by_snapshot",
+    "graduation_utc",
+    "time_to_graduation_min",
+    "vol_2m_usd",
+    "vol_1h_usd",
+    "vol_24h_usd",
+    "h24_complete",
+    "vol_to_date_usd",
+    "history_h_at_cutoff",
+    "curve_vol_1h_usd",
+    "postgrad_vol_1h_usd",
+    "curve_vol_24h_usd",
+    "postgrad_vol_24h_usd",
+    "curve_vol_to_date_usd",
+    "postgrad_vol_to_date_usd",
+    "tx_curve_vol_2m_sol",
+    "tx_curve_vol_15m_sol",
+    "tx_net_buy_15m_sol",
+    "tx_unique_buyers_5m",
+    "tx_unique_buyers_15m",
+    "tx_suspicious_pct_15m",
+    "race_id_w10",
+    "race_id_w60",
+    "excluded_reason",
+    "flags"
+  ],
+  "candidatePredicate": "graduated_by_snapshot == '1'; curve_family == 'SOL standard'; 0 <= French-decimal time_to_graduation_min <= 60",
+  "windowDefinition": "First trade = CSV launch_utc, not independently verified signed creation. Own-hour window [firstTradeUTC, ownHourEndUTC). Graduation timestamp is source last-curve-trade proxy.",
+  "selectionRule": "Exactly four per delay band: <2, [2,15], (15,60] minutes, using reported rounded delay. Within each band and flag stratum, sort mint lexicographically ascending. Select two flagged and two unflagged where available; fill a deficient stratum from the other. No volume, winner, fees, name or subsequent outcome used.",
+  "flagStratumRule": {
+    "flaggedIfAnyMemberFlag": [
+      "extreme_curve_volume_1h_possible_volume_bot",
+      "prices_start_after_first_curve_trade",
+      "suspicious_tx_share_gt_20pct"
+    ],
+    "notUsedForStratification": [
+      "h24_incomplete",
+      "no_image_in_db"
+    ],
+    "raceFlags": "Preserved, not used in selection."
+  },
+  "bandCounts": [
+    {
+      "band": "under_2_min",
+      "candidateCount": 55,
+      "flaggedAvailable": 25,
+      "unflaggedAvailable": 30,
+      "flaggedSelected": 2,
+      "unflaggedSelected": 2
+    },
+    {
+      "band": "2_through_15_min",
+      "candidateCount": 30,
+      "flaggedAvailable": 0,
+      "unflaggedAvailable": 30,
+      "flaggedSelected": 0,
+      "unflaggedSelected": 4
+    },
+    {
+      "band": "over_15_through_60_min",
+      "candidateCount": 32,
+      "flaggedAvailable": 1,
+      "unflaggedAvailable": 31,
+      "flaggedSelected": 1,
+      "unflaggedSelected": 3
+    }
+  ],
+  "candidateCount": 117,
+  "pilotCount": 12,
+  "noNetworkAcquisition": true,
+  "financialEffect": false,
+  "pilot": [
+    {
+      "mint": "3kwg8xu8w8N4GHSs7S2ygSVBEoTWt9uoEHec3mtPpump",
+      "raceId": "R1022",
+      "firstTradeUTC": "2026-10-22T20:43:27Z",
+      "proxyGraduationUTC": "2026-10-22T20:43:27Z",
+      "ownHourEndUTC": "2026-10-22T21:43:27Z",
+      "family": "SOL standard",
+      "flags": [
+        "no_image_in_db",
+        "h24_incomplete",
+        "suspicious_tx_share_gt_20pct"
+      ],
+      "raceFlags": [
+        "h24_incomplete"
+      ],
+      "reportedGraduationDelayMinutes": "0.0",
+      "delayBand": "under_2_min",
+      "flagStratum": "flagged",
+      "reviewLabel": "reported graduation proxy; NOT on-chain verified",
+      "reason": "under_2_min: flagged stratum, lexicographic mint rank 1; selected 2 of 25 in this stratum under fixed four-per-band allocation."
+    },
+    {
+      "mint": "4U6Un8pVPgbeZWyaUWufHXNskTJfK8TYkKkRUThbpump",
+      "raceId": "R1081",
+      "firstTradeUTC": "2026-10-22T21:34:46Z",
+      "proxyGraduationUTC": "2026-10-22T21:34:46Z",
+      "ownHourEndUTC": "2026-10-22T22:34:46Z",
+      "family": "SOL standard",
+      "flags": [
+        "no_image_in_db",
+        "h24_incomplete",
+        "suspicious_tx_share_gt_20pct"
+      ],
+      "raceFlags": [
+        "h24_incomplete"
+      ],
+      "reportedGraduationDelayMinutes": "0.0",
+      "delayBand": "under_2_min",
+      "flagStratum": "flagged",
+      "reviewLabel": "reported graduation proxy; NOT on-chain verified",
+      "reason": "under_2_min: flagged stratum, lexicographic mint rank 2; selected 2 of 25 in this stratum under fixed four-per-band allocation."
+    },
+    {
+      "mint": "2DCcA4NhVdyVwpCFBLijweyNjh8Fm5ksXeYPJTobpump",
+      "raceId": "R2300",
+      "firstTradeUTC": "2026-10-23T10:32:38Z",
+      "proxyGraduationUTC": "2026-10-23T10:34:23Z",
+      "ownHourEndUTC": "2026-10-23T11:32:38Z",
+      "family": "SOL standard",
+      "flags": [
+        "h24_incomplete"
+      ],
+      "raceFlags": [
+        "h24_incomplete"
+      ],
+      "reportedGraduationDelayMinutes": "1.8",
+      "delayBand": "under_2_min",
+      "flagStratum": "unflagged",
+      "reviewLabel": "reported graduation proxy; NOT on-chain verified",
+      "reason": "under_2_min: unflagged stratum, lexicographic mint rank 1; selected 2 of 30 in this stratum under fixed four-per-band allocation."
+    },
+    {
+      "mint": "2GEnh28Tz91ymBC6RpRRYgVEZ9m1K8duDv3ipb8ypump",
+      "raceId": "R1126",
+      "firstTradeUTC": "2026-10-22T21:42:22Z",
+      "proxyGraduationUTC": "2026-10-22T21:42:22Z",
+      "ownHourEndUTC": "2026-10-22T22:42:22Z",
+      "family": "SOL standard",
+      "flags": [
+        "no_image_in_db",
+        "h24_incomplete"
+      ],
+      "raceFlags": [
+        "h24_incomplete"
+      ],
+      "reportedGraduationDelayMinutes": "0.0",
+      "delayBand": "under_2_min",
+      "flagStratum": "unflagged",
+      "reviewLabel": "reported graduation proxy; NOT on-chain verified",
+      "reason": "under_2_min: unflagged stratum, lexicographic mint rank 2; selected 2 of 30 in this stratum under fixed four-per-band allocation."
+    },
+    {
+      "mint": "2AAVAbzcqb8of1Vsji3y5GGx9FVg3bfmwXYAFgWLpump",
+      "raceId": "R0102",
+      "firstTradeUTC": "2026-10-22T13:56:48Z",
+      "proxyGraduationUTC": "2026-10-22T14:05:27Z",
+      "ownHourEndUTC": "2026-10-22T14:56:48Z",
+      "family": "SOL standard",
+      "flags": [
+        "no_image_in_db"
+      ],
+      "raceFlags": [],
+      "reportedGraduationDelayMinutes": "8.7",
+      "delayBand": "2_through_15_min",
+      "flagStratum": "unflagged",
+      "reviewLabel": "reported graduation proxy; NOT on-chain verified",
+      "reason": "2_through_15_min: unflagged stratum, lexicographic mint rank 1; selected 4 of 30 in this stratum under fixed four-per-band allocation."
+    },
+    {
+      "mint": "2ETgoSdLUa47nN7qzPp776k1SDLEkQvAuNS6wbrSpump",
+      "raceId": "R2312",
+      "firstTradeUTC": "2026-10-23T10:57:59Z",
+      "proxyGraduationUTC": "2026-10-23T11:01:18Z",
+      "ownHourEndUTC": "2026-10-23T11:57:59Z",
+      "family": "SOL standard",
+      "flags": [
+        "h24_incomplete"
+      ],
+      "raceFlags": [
+        "h24_incomplete"
+      ],
+      "reportedGraduationDelayMinutes": "3.3",
+      "delayBand": "2_through_15_min",
+      "flagStratum": "unflagged",
+      "reviewLabel": "reported graduation proxy; NOT on-chain verified",
+      "reason": "2_through_15_min: unflagged stratum, lexicographic mint rank 2; selected 4 of 30 in this stratum under fixed four-per-band allocation."
+    },
+    {
+      "mint": "2WgomNgjaLM1jzDCbfEHgr4Cu657d1Nb7TysB1i2pump",
+      "raceId": "R0829",
+      "firstTradeUTC": "2026-10-22T19:11:56Z",
+      "proxyGraduationUTC": "2026-10-22T19:23:57Z",
+      "ownHourEndUTC": "2026-10-22T20:11:56Z",
+      "family": "SOL standard",
+      "flags": [
+        "no_image_in_db",
+        "h24_incomplete"
+      ],
+      "raceFlags": [
+        "h24_incomplete"
+      ],
+      "reportedGraduationDelayMinutes": "12.0",
+      "delayBand": "2_through_15_min",
+      "flagStratum": "unflagged",
+      "reviewLabel": "reported graduation proxy; NOT on-chain verified",
+      "reason": "2_through_15_min: unflagged stratum, lexicographic mint rank 3; selected 4 of 30 in this stratum under fixed four-per-band allocation."
+    },
+    {
+      "mint": "2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump",
+      "raceId": "R1741",
+      "firstTradeUTC": "2026-10-23T02:59:46Z",
+      "proxyGraduationUTC": "2026-10-23T03:02:04Z",
+      "ownHourEndUTC": "2026-10-23T03:59:46Z",
+      "family": "SOL standard",
+      "flags": [
+        "no_image_in_db",
+        "h24_incomplete"
+      ],
+      "raceFlags": [
+        "h24_incomplete"
+      ],
+      "reportedGraduationDelayMinutes": "2.3",
+      "delayBand": "2_through_15_min",
+      "flagStratum": "unflagged",
+      "reviewLabel": "reported graduation proxy; NOT on-chain verified",
+      "reason": "2_through_15_min: unflagged stratum, lexicographic mint rank 4; selected 4 of 30 in this stratum under fixed four-per-band allocation."
+    },
+    {
+      "mint": "7pChUehw9YjzKpmM9MUP1jAMZKoLte1hkFFKdLdGpump",
+      "raceId": "R2138",
+      "firstTradeUTC": "2026-10-23T08:10:29Z",
+      "proxyGraduationUTC": "2026-10-23T08:33:28Z",
+      "ownHourEndUTC": "2026-10-23T09:10:29Z",
+      "family": "SOL standard",
+      "flags": [
+        "no_image_in_db",
+        "h24_incomplete",
+        "suspicious_tx_share_gt_20pct"
+      ],
+      "raceFlags": [
+        "h24_incomplete"
+      ],
+      "reportedGraduationDelayMinutes": "23.0",
+      "delayBand": "over_15_through_60_min",
+      "flagStratum": "flagged",
+      "reviewLabel": "reported graduation proxy; NOT on-chain verified",
+      "reason": "over_15_through_60_min: flagged stratum, lexicographic mint rank 1; selected 1 of 1 in this stratum under fixed four-per-band allocation."
+    },
+    {
+      "mint": "217NMz7ia83i8Y6ezVBeTsEfhpuxBUCLj9RygjTSpump",
+      "raceId": "R2489",
+      "firstTradeUTC": "2026-10-23T12:41:47Z",
+      "proxyGraduationUTC": "2026-10-23T13:20:46Z",
+      "ownHourEndUTC": "2026-10-23T13:41:47Z",
+      "family": "SOL standard",
+      "flags": [
+        "no_image_in_db",
+        "h24_incomplete"
+      ],
+      "raceFlags": [
+        "edge_of_24h_window_members_may_be_missing",
+        "h24_incomplete"
+      ],
+      "reportedGraduationDelayMinutes": "39.0",
+      "delayBand": "over_15_through_60_min",
+      "flagStratum": "unflagged",
+      "reviewLabel": "reported graduation proxy; NOT on-chain verified",
+      "reason": "over_15_through_60_min: unflagged stratum, lexicographic mint rank 1; selected 3 of 31 in this stratum under fixed four-per-band allocation."
+    },
+    {
+      "mint": "2BTUokhHsnKNmvinBRZ2zBQvZSVJig9iC1hfoEQ2pump",
+      "raceId": "R2110",
+      "firstTradeUTC": "2026-10-23T07:34:23Z",
+      "proxyGraduationUTC": "2026-10-23T08:25:16Z",
+      "ownHourEndUTC": "2026-10-23T08:34:23Z",
+      "family": "SOL standard",
+      "flags": [
+        "h24_incomplete"
+      ],
+      "raceFlags": [
+        "h24_incomplete"
+      ],
+      "reportedGraduationDelayMinutes": "50.9",
+      "delayBand": "over_15_through_60_min",
+      "flagStratum": "unflagged",
+      "reviewLabel": "reported graduation proxy; NOT on-chain verified",
+      "reason": "over_15_through_60_min: unflagged stratum, lexicographic mint rank 2; selected 3 of 31 in this stratum under fixed four-per-band allocation."
+    },
+    {
+      "mint": "2S4btibSdJhmHywbszY8cqvc3EDN78h6A6nf5Wuppump",
+      "raceId": "R2421",
+      "firstTradeUTC": "2026-10-23T11:50:07Z",
+      "proxyGraduationUTC": "2026-10-23T12:27:24Z",
+      "ownHourEndUTC": "2026-10-23T12:50:07Z",
+      "family": "SOL standard",
+      "flags": [
+        "h24_incomplete"
+      ],
+      "raceFlags": [
+        "h24_incomplete"
+      ],
+      "reportedGraduationDelayMinutes": "37.3",
+      "delayBand": "over_15_through_60_min",
+      "flagStratum": "unflagged",
+      "reviewLabel": "reported graduation proxy; NOT on-chain verified",
+      "reason": "over_15_through_60_min: unflagged stratum, lexicographic mint rank 3; selected 3 of 31 in this stratum under fixed four-per-band allocation."
+    }
+  ],
+  "executionStatus": "Retained 12-token pilot; no acquisition commands included.",
+  "sourceArchive": "vamp_races_2026-10-23.zip"
+}

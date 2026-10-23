@@ -1,0 +1,35 @@
+{
+  "sourceCase": "hzych-token-bundle-investigation",
+  "sourceTables": [
+    {
+      "caseRelativePath": "work/boost-launcher-size-20261017/pigeon-repricing/PER-LAUNCH.json",
+      "sha256": "3c489ec2ff8424598f8ef77ee505810b4ea0cc9733f597820c14d854b12282bb",
+      "rows": 583
+    },
+    {
+      "caseRelativePath": "work/boost-launcher-size-20261017/ram-repricing/per-mint.json",
+      "sha256": "e99f65fd06a24a1ffac1e106bc63333dca5b56f846796562f31483fe2abc0b43",
+      "rows": 271
+    },
+    {
+      "caseRelativePath": "work/boost-launcher-size-20261017/pigeon-repricing/RESULT.json",
+      "sha256": "94bc762190408a5e65319f5d4d2c049029fffe9017e5fca111a7a59e18bf07e9",
+      "role": "Original aggregate cross-check; source contains additional financing scenarios intentionally not bundled."
+    },
+    {
+      "caseRelativePath": "work/boost-launcher-size-20261017/ram-repricing/RESULT.json",
+      "sha256": "7b75082b9950d13fb3c1539d79d801e98db71b25f3f3dff78255290658f897f6",
+      "role": "Original aggregate cross-check; source contains additional financing scenarios intentionally not bundled."
+    }
+  ],
+  "rowPolicy": "All traders included. Exported only all-measure fields; original exactLauncherExcluded fields intentionally not used.",
+  "availability": "All854 per-launch phase summaries bundled. Separate private release asset events-854.jsonl.gz contains1,759,593normalizedevents; portable replay independently computes per-event95bps floors and reconciles every phase field. RawRPCarchives not bundled.",
+  "valuationSource": {
+    "caseRelativePath": "outputs/leverage-fee-benchmark-20261014/sources/sol-usd-kraken.json",
+    "originalSha256": "4da117aa33e19fa8da8b1eefac562ed87cecac8c61643df2472b730799b782f4",
+    "bundledCopy": "data/historical-sol-usd.json",
+    "exportPolicy": "Only unrelated modeled derived amounts omitted; price response and timestamp retained."
+  },
+  "eventAssetProvenance": "data/event-asset-provenance.json",
+  "eventReplayVerification": "data/event-replay-verification.json"
+}

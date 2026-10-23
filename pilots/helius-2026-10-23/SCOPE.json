@@ -1,0 +1,13 @@
+{
+  "distinctPilotRaces": 12,
+  "existingCsvMembersInPilotRaces": 51,
+  "fetchedPilotTokens": 12,
+  "unfetchedCompetitorsInPilotRaces": 39,
+  "completeRaceReconstruction": false,
+  "selectionManifestCandidateCount": 117,
+  "selectionManifestCandidateMeaning": "Original proxy cutoff candidate universe; separate from revised 160 standard-SOL snapshot graduates.",
+  "revisedSnapshotCandidateCount": 160,
+  "scopeJoin": "pilot raceIds joined to race_id in retained 5534-member race universe",
+  "scopeSourceSha256": "a1f70f33bffa8fdd055b172d767f11e6189982fbf3498536ed38f756217b05ba",
+  "newProviderCallsDuringPackaging": 0
+}

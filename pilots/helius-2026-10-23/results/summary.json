@@ -1,0 +1,199 @@
+{
+  "mints": 12,
+  "uniqueTransactions": 139134,
+  "boundOwnHourTradeEvents": 94076,
+  "curveEvents": 14404,
+  "ammEvents": 79672,
+  "ammTransferReconciled": 79672,
+  "errors": {
+    "unterminated_log_stack": 244,
+    "unparsed_event_bytes": 94188,
+    "log_stack_mismatch": 20,
+    "post_complete_buy_requires_separate_phase": 6
+  },
+  "tailCounts": [
+    {
+      "bytes": 8,
+      "hex": "0000000000000000",
+      "count": 94186
+    },
+    {
+      "bytes": 8,
+      "hex": "1bd3050000000000",
+      "count": 1
+    },
+    {
+      "bytes": 8,
+      "hex": "1d8b000000000000",
+      "count": 1
+    }
+  ],
+  "unterminatedLogTransactions": 244,
+  "ambiguousBoundOwnHourTradeEvents": 308,
+  "feeModesActualWindow": {
+    "creator_fee_component": 86659,
+    "zero_reported_fee_components": 348,
+    "holder_rewards": 7069
+  },
+  "perMint": [
+    {
+      "mint": "3kwg8xu8w8N4GHSs7S2ygSVBEoTWt9uoEHec3mtPpump",
+      "feeModes": {
+        "creator_fee_component": 5619,
+        "zero_reported_fee_components": 30
+      },
+      "curve": 18,
+      "amm": 5631,
+      "ammReconciled": 5631,
+      "signedCreation": true,
+      "poolBindingProved": true
+    },
+    {
+      "mint": "4U6Un8pVPgbeZWyaUWufHXNskTJfK8TYkKkRUThbpump",
+      "feeModes": {
+        "creator_fee_component": 4721,
+        "zero_reported_fee_components": 29
+      },
+      "curve": 18,
+      "amm": 4732,
+      "ammReconciled": 4732,
+      "signedCreation": true,
+      "poolBindingProved": true
+    },
+    {
+      "mint": "2DCcA4NhVdyVwpCFBLijweyNjh8Fm5ksXeYPJTobpump",
+      "feeModes": {
+        "holder_rewards": 3032,
+        "zero_reported_fee_components": 29
+      },
+      "curve": 965,
+      "amm": 2096,
+      "ammReconciled": 2096,
+      "signedCreation": true,
+      "poolBindingProved": true
+    },
+    {
+      "mint": "2GEnh28Tz91ymBC6RpRRYgVEZ9m1K8duDv3ipb8ypump",
+      "feeModes": {
+        "creator_fee_component": 1117,
+        "zero_reported_fee_components": 30
+      },
+      "curve": 19,
+      "amm": 1128,
+      "ammReconciled": 1128,
+      "signedCreation": true,
+      "poolBindingProved": true
+    },
+    {
+      "mint": "2AAVAbzcqb8of1Vsji3y5GGx9FVg3bfmwXYAFgWLpump",
+      "feeModes": {
+        "creator_fee_component": 18265,
+        "zero_reported_fee_components": 30
+      },
+      "curve": 3280,
+      "amm": 15015,
+      "ammReconciled": 15015,
+      "signedCreation": true,
+      "poolBindingProved": true
+    },
+    {
+      "mint": "2ETgoSdLUa47nN7qzPp776k1SDLEkQvAuNS6wbrSpump",
+      "feeModes": {
+        "holder_rewards": 4037,
+        "zero_reported_fee_components": 27
+      },
+      "curve": 868,
+      "amm": 3196,
+      "ammReconciled": 3196,
+      "signedCreation": true,
+      "poolBindingProved": true
+    },
+    {
+      "mint": "2WgomNgjaLM1jzDCbfEHgr4Cu657d1Nb7TysB1i2pump",
+      "feeModes": {
+        "creator_fee_component": 15582,
+        "zero_reported_fee_components": 29
+      },
+      "curve": 2824,
+      "amm": 12787,
+      "ammReconciled": 12787,
+      "signedCreation": true,
+      "poolBindingProved": true
+    },
+    {
+      "mint": "2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump",
+      "feeModes": {
+        "creator_fee_component": 6636,
+        "zero_reported_fee_components": 30
+      },
+      "curve": 78,
+      "amm": 6588,
+      "ammReconciled": 6588,
+      "signedCreation": true,
+      "poolBindingProved": true
+    },
+    {
+      "mint": "7pChUehw9YjzKpmM9MUP1jAMZKoLte1hkFFKdLdGpump",
+      "feeModes": {
+        "creator_fee_component": 5320,
+        "zero_reported_fee_components": 28
+      },
+      "curve": 9,
+      "amm": 5339,
+      "ammReconciled": 5339,
+      "signedCreation": true,
+      "poolBindingProved": true
+    },
+    {
+      "mint": "217NMz7ia83i8Y6ezVBeTsEfhpuxBUCLj9RygjTSpump",
+      "feeModes": {
+        "creator_fee_component": 19327,
+        "zero_reported_fee_components": 27
+      },
+      "curve": 771,
+      "amm": 18583,
+      "ammReconciled": 18583,
+      "signedCreation": true,
+      "poolBindingProved": true
+    },
+    {
+      "mint": "2BTUokhHsnKNmvinBRZ2zBQvZSVJig9iC1hfoEQ2pump",
+      "feeModes": {
+        "creator_fee_component": 7523,
+        "zero_reported_fee_components": 30
+      },
+      "curve": 3901,
+      "amm": 3652,
+      "ammReconciled": 3652,
+      "signedCreation": true,
+      "poolBindingProved": true
+    },
+    {
+      "mint": "2S4btibSdJhmHywbszY8cqvc3EDN78h6A6nf5Wuppump",
+      "feeModes": {
+        "creator_fee_component": 2549,
+        "zero_reported_fee_components": 29
+      },
+      "curve": 1653,
+      "amm": 925,
+      "ammReconciled": 925,
+      "signedCreation": true,
+      "poolBindingProved": true
+    }
+  ],
+  "scope": {
+    "distinctPilotRaces": 12,
+    "existingCsvMembersInPilotRaces": 51,
+    "fetchedPilotTokens": 12,
+    "unfetchedCompetitorsInPilotRaces": 39,
+    "completeRaceReconstruction": false,
+    "selectionManifestCandidateCount": 117,
+    "selectionManifestCandidateMeaning": "Original proxy cutoff candidate universe; separate from revised 160 standard-SOL snapshot graduates.",
+    "revisedSnapshotCandidateCount": 160,
+    "scopeJoin": "pilot raceIds joined to race_id in retained 5534-member race universe",
+    "scopeSourceSha256": "a1f70f33bffa8fdd055b172d767f11e6189982fbf3498536ed38f756217b05ba",
+    "newProviderCallsDuringPackaging": 0
+  },
+  "proofCeiling": "Observed decoded gross accrual, not claims, profit, demand uplift or all-venue coverage. Missing fields/streams remain unknown. All traders retained. No historical 854 fee values changed.",
+  "feeFieldAccounting": "creatorFeeLamports is the gross event creator-fee field; holderRewardsLamports overlaps it and must never be added. creatorWalletAccrualComponentLamports subtracts holder routing, not proof of wallet income/receipt. Cashback is a separate charged component."
+}

@@ -1,0 +1,11 @@
+{
+  "archiveName": "vamp_races_2026-10-23.zip",
+  "archiveSha256": "1ae8d28f9c6e0858167943525f510c096a3a8cfcc6373a728b3c3135e7132e77",
+  "membersSha256": {
+    "README.txt": "210dec308a641058f580e1c0c2b085331072ca760f77275afae04b4e14638be6",
+    "all_mints.csv": "a44624463775379f1d7a9e623874335fe6c3fdcbac68161ca00f48f9455f0496",
+    "race_members.csv": "97d6da6c919a0a1a72933653d5e4e63ce668d924b9c7bcbeb9bbbfce2707a29d",
+    "races.csv": "f2027d4e37af0c025bc1084ff96b05cf6980da70a272e4d2c7c1d302a6c990b5"
+  },
+  "preservation": "Unmodified extracted source bytes. Original archive not required to reproduce analysis."
+}

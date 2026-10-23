@@ -1,0 +1,72 @@
+{
+  "scope": "Separate deterministic 12-token standard-SOL pilot; only selected mints, not full races. Export graduation timestamps remain source proxies.",
+  "note": "Migration instruction/event plus same-transaction pool binding were checked in a separate raw-transaction pilot. This timing note does not claim the CSV phase volumes or creator-fee amounts were verified. Underlying raw pilot evidence is packaged separately by the repository owner.",
+  "materialDiscrepancyRule": "Absolute proxy-minus-migration difference greater than 60 seconds; four cases.",
+  "materialDiscrepancies": [
+    {
+      "mint": "7pChUehw9YjzKpmM9MUP1jAMZKoLte1hkFFKdLdGpump",
+      "raceId": "R2138",
+      "reportedProxyUTC": "2026-10-23T08:33:28Z",
+      "migrationBlockTime": 1792743029,
+      "migrationMinusProxySeconds": -1379,
+      "actualFirstTradeMinusCsvSeconds": 0,
+      "poolBindingProved": true
+    },
+    {
+      "mint": "217NMz7ia83i8Y6ezVBeTsEfhpuxBUCLj9RygjTSpump",
+      "raceId": "R2489",
+      "reportedProxyUTC": "2026-10-23T13:20:46Z",
+      "migrationBlockTime": 1792759641,
+      "migrationMinusProxySeconds": -2005,
+      "actualFirstTradeMinusCsvSeconds": 0,
+      "poolBindingProved": true
+    },
+    {
+      "mint": "2BTUokhHsnKNmvinBRZ2zBQvZSVJig9iC1hfoEQ2pump",
+      "raceId": "R2110",
+      "reportedProxyUTC": "2026-10-23T08:25:16Z",
+      "migrationBlockTime": 1792742574,
+      "migrationMinusProxySeconds": -1342,
+      "actualFirstTradeMinusCsvSeconds": 0,
+      "poolBindingProved": true
+    },
+    {
+      "mint": "2S4btibSdJhmHywbszY8cqvc3EDN78h6A6nf5Wuppump",
+      "raceId": "R2421",
+      "reportedProxyUTC": "2026-10-23T12:27:24Z",
+      "migrationBlockTime": 1792757754,
+      "migrationMinusProxySeconds": -690,
+      "actualFirstTradeMinusCsvSeconds": 0,
+      "poolBindingProved": true
+    }
+  ],
+  "smallTimestampDifferences": [
+    {
+      "mint": "2ETgoSdLUa47nN7qzPp776k1SDLEkQvAuNS6wbrSpump",
+      "raceId": "R2312",
+      "reportedProxyUTC": "2026-10-23T11:01:18Z",
+      "migrationBlockTime": 1792753273,
+      "migrationMinusProxySeconds": -5,
+      "actualFirstTradeMinusCsvSeconds": 0,
+      "poolBindingProved": true
+    },
+    {
+      "mint": "2WgomNgjaLM1jzDCbfEHgr4Cu657d1Nb7TysB1i2pump",
+      "raceId": "R0829",
+      "reportedProxyUTC": "2026-10-22T19:23:57Z",
+      "migrationBlockTime": 1792697038,
+      "migrationMinusProxySeconds": 1,
+      "actualFirstTradeMinusCsvSeconds": 0,
+      "poolBindingProved": true
+    },
+    {
+      "mint": "2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump",
+      "raceId": "R1741",
+      "reportedProxyUTC": "2026-10-23T03:02:04Z",
+      "migrationBlockTime": 1792724525,
+      "migrationMinusProxySeconds": 1,
+      "actualFirstTradeMinusCsvSeconds": 0,
+      "poolBindingProved": true
+    }
+  ]
+}
