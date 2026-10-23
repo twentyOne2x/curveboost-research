@@ -7,8 +7,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2732,
-      "sha256": "6224f21f9ad7d673f8006bdf1feb459e8259699715ad22c314a447d7539ab82f"
+      "bytes": 2829,
+      "sha256": "3e39d47792e0a505cd1288022b845f92ad7cb589b7cb00264ec411b01db93e91"
     },
     {
       "path": "data/event-asset-provenance.json",
@@ -47,8 +47,18 @@
     },
     {
       "path": "figures/chart-input.json",
-      "bytes": 651,
-      "sha256": "ca225bbabde6898b5c2f898fd2a15428ef15194e094f222f2b7fba69e2691df2"
+      "bytes": 682,
+      "sha256": "432fe09179fdc91f58025fbebc6b5d8e23059dd13d348028a013a83da3cee266"
+    },
+    {
+      "path": "figures/curve-boost-first-hour-fees-v1.png",
+      "bytes": 255412,
+      "sha256": "32bf13ed31b28447e04c3d9defdc965c8344a58e92ddb667692ecf4f24fac9e0"
+    },
+    {
+      "path": "figures/curve-boost-first-hour-fees-v1.svg",
+      "bytes": 4491,
+      "sha256": "72bf43225c2d396fcfa37b965ab3349ef26bcb41a9bddb5fb60642e6a4598ffa"
     },
     {
       "path": "results.json",
@@ -67,8 +77,8 @@
     },
     {
       "path": "scripts/render_chart.py",
-      "bytes": 2971,
-      "sha256": "8aa75223e35b7fca3dce5df07c77967d39631bbea16054b0cda31104b191b191"
+      "bytes": 3381,
+      "sha256": "4beeae0b8b94acd8674cde566735a3ce234ae812e3d52dd46c61ae58d2d82f9d"
     },
     {
       "path": "scripts/replay_events.py",

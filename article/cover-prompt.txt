@@ -1,0 +1,7 @@
+Use case: ads-marketing / brand cover.
+Create the final very wide landscape article cover for Curve Boost, using the attached accepted logo concept as the identity reference. Target a 2.5:1 panorama composition suitable for the top of a Typefully article, designed to crop cleanly at 1982x793. Near-black background, bright silver-white typography and one beautifully sculpted continuous bonding-curve symbol. The curve accelerates from almost horizontal to sharply upward and ends in a compact, sharp radiant burst: maximum boost. The curve and burst must be one coherent distinctive symbol, without a rocket illustration. Strong, bullish, sophisticated, restrained, exceptional typography and lots of breathing room. Make the whole lockup horizontal and comfortably inset from every edge.
+Exact text, three lines only:
+Curve Boost
+Built for the opening rush
+A product by attn.markets
+Main title large and highly legible. Tagline smaller. Attribution clear but quiet. Keep the accepted curve-to-burst identity recognizable. Slight metallic highlights allowed; minimal light bloom. No green, no candles, no chart axes, no steps, no extra text, no random particles, no website UI, no mockup frame. The reference image is for identity/style, not an edit target. Generate a clean final cover asset.

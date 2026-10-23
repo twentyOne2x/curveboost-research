@@ -1,10 +1,10 @@
-# Boost matched launch-race research
+# Curve Boost matched launch-race research
 
 Study snapshot: 23 October 2026. Prepared for private review.
 
 The strongest own two-minute opening also led own first-hour volume in **1,007/1,219 contested races (82.6%)**. The first token launched led in **577/1,219 (47.3%)**. The contested set contains **5,534 member tokens**. A contested race has at least two tokens with $1,000 or more in own first-hour exported volume.
 
-These are retrospective associations within the matched source export. They are not a Boost success rate, a causal effect, an all-market estimate or an online prediction at race-minute two.
+These are retrospective associations within the matched source export. They are not a Curve Boost success rate, a causal effect, an all-market estimate or an online prediction at race-minute two.
 
 ## Reproduce offline
 
@@ -23,7 +23,7 @@ Optional PNG recreation uses an already-installed Pillow 10.1 or newer:
 python3 scripts/build_chart.py
 ```
 
-The renderer tries Arial, DejaVu Sans and Liberation Sans, then Pillow's scalable default font. It needs no machine-specific font path. Native SVG uses standard sans-serif fallbacks and can be opened or exported in any SVG-capable browser/editor. Font rasterization can vary by platform. `charts/original/` preserves the exact article PNG/SVG unchanged; `charts/rebuilt/` holds generated versions.
+The renderer tries Arial, DejaVu Sans and Liberation Sans, then Pillow's scalable default font. It needs no machine-specific font path. Native SVG uses standard sans-serif fallbacks and can be opened or exported in any SVG-capable browser/editor. Font rasterization can vary by platform. `charts/original/` preserves the earlier article PNG/SVG unchanged; `charts/rebuilt/curve-boost-opening-volume-v1.{png,svg}` holds the current Curve Boost graphics.
 
 ## Contents
 

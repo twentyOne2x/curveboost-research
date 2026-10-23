@@ -11,8 +11,8 @@ try:
  from PIL import Image,ImageDraw,ImageFont
 except ImportError:
  Image=ImageDraw=ImageFont=None
-W,H=1600,1000
-BG='#0B0E12';WHITE='#F1F4F8';MUTED='#ABB4C1';BLUE='#8BAEE2';SILVER='#B9C0CB';RULE='#303844'
+W,H=1600,1100
+BG='#0B0C0E';WHITE='#F4F3EF';MUTED='#AAAEB5';BLUE='#E1E3E6';SILVER='#777D86';RULE='#30343A'
 im=Image.new('RGB',(W*2,H*2),BG) if Image else None;d=ImageDraw.Draw(im) if im else None
 s=[f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}"><rect width="{W}" height="{H}" fill="{BG}"/>']
 def font(size,bold):
@@ -29,27 +29,33 @@ def line(x,y,x2,y2,color=RULE,width=2):
 def rect(x,y,w,h,color):
  if d:d.rectangle((x*2,y*2,(x+w)*2,(y+h)*2),fill=color)
  s.append(f'<rect x="{x}" y="{y}" width="{w}" height="{h}" fill="{color}"/>')
-text(70,56,f'{den:,} CONTESTED VAMP RACES',27,color=MUTED,bold=True)
-text(70,124,'Opening volume and',73,bold=True)
-text(70,211,'first-hour leadership',73,bold=True)
-text(72,325,'Share that also led first-hour volume',34,color=MUTED)
+mark=[(70+x,55+y) for x,y in [(0, 34), (12, 33), (24, 31), (34, 27), (42, 21), (47, 13), (48, 6), (47, 0), (51, 10), (59, -10), (55, 12), (67, 0), (58, 15), (74, 10), (60, 21), (66, 27), (57, 25), (51, 26), (44, 30), (34, 34), (21, 36), (0, 36)]]
+if d:d.polygon([(x*2,y*2) for x,y in mark],fill=WHITE)
+s.append('<polygon points="'+' '.join(str(x)+','+str(y) for x,y in mark)+'" fill="'+WHITE+'"/>')
+text(163,50,'Curve Boost',32,bold=True)
+text(1334,54,'attn.markets',25,color=MUTED)
+line(70,110,1530,110,RULE)
+text(70,146,f'{den:,} CONTESTED VAMP RACES',25,color=MUTED,bold=True)
+text(70,204,'Opening volume and',73,bold=True)
+text(70,291,'first-hour leadership',73,bold=True)
+text(72,405,'Share that also led first-hour volume',32,color=MUTED)
 x0=72;chartw=1456
 for v in [0,50,100]:
  x=x0+chartw*v/100
- line(x,441,x,772,RULE,2)
- text(x-9 if v==50 else x-62 if v==100 else x,791,str(v)+'%',24,color=MUTED)
-rows=[('Strongest two-minute opening',opening,den,BLUE,416),('First token launched',first,den,SILVER,612)]
+ line(x,521,x,852,RULE,2)
+ text(x-9 if v==50 else x-62 if v==100 else x,871,str(v)+'%',24,color=MUTED)
+rows=[('Strongest two-minute opening',opening,den,BLUE,496),('First token launched',first,den,SILVER,692)]
 for label,n,den,color,y in rows:
  pct=100*n/den;text(72,y,label,38,bold=True)
  rect(x0,y+69,chartw*n/den,77,color)
  endpoint=x0+chartw*n/den
  text(endpoint+21,y+68,f'{pct:.1f}%',57,color=color,bold=True)
  text(endpoint+24,y+130,f'{n:,} / {den:,}',25,color=MUTED)
-line(70,862,1530,862)
-text(70,887,'At least two tokens with $1,000+ first-hour volume.',27,color=MUTED)
-text(70,928,'Each token uses its own two-minute and one-hour windows.',27,color=MUTED)
-text(70,969,'Launches: 22–23 Oct 2026 · Circular.fi export, checked by attn.markets',24,color=MUTED)
+line(70,942,1530,942)
+text(70,967,'At least two tokens with $1,000+ first-hour volume.',27,color=MUTED)
+text(70,1008,'Each token uses its own two-minute and one-hour windows.',27,color=MUTED)
+text(70,1049,'Launches: 22–23 Oct 2026 · @Circular_fi export · attn.markets',24,color=MUTED)
 
-(OUT/'vamp-opening-volume-v1.svg').write_text(''.join(s)+'</svg>')
-if im:im.resize((W,H),Image.Resampling.LANCZOS).save(OUT/'vamp-opening-volume-v1.png')
+(OUT/'curve-boost-opening-volume-v1.svg').write_text(''.join(s)+'</svg>')
+if im:im.resize((W,H),Image.Resampling.LANCZOS).save(OUT/'curve-boost-opening-volume-v1.png')
 print('SVG written; PNG '+('written with installed font fallback' if im else 'not requested or optional Pillow unavailable'))

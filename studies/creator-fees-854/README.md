@@ -1,4 +1,4 @@
-# Boost: retained first-hour fee sensitivity
+# Curve Boost: retained first-hour fee sensitivity
 
 Study snapshot: 23 October 2026. Prepared for private review.
 
@@ -17,7 +17,7 @@ python3 scripts/calculate.py
 
 The script uses only Python's standard library. It checks cohort sizes, unique mints and expected exact integers, then writes `results.json`. `data/launches-854.csv` provides every launch's curve and AMM volume, observed fee, saved event-rounded 95 bps fee sum, event counts and historical source reference. The reference paths are provenance identifiers within the original research case; those upstream files are not included here.
 
-`figures/boost-fees-v4.png` and `.svg` are the existing article graphics. Their exact display inputs are `figures/chart-input.json`; optional `scripts/render_chart.py` requires Pillow and regenerates the graphic with a portable font fallback, so typography may differ. Calculations do not require Pillow.
+`figures/curve-boost-first-hour-fees-v1.png` and `.svg` are the current article graphics. Earlier `boost-fees-v4` graphics remain as historical presentation assets. Their exact display inputs are `figures/chart-input.json`; optional `scripts/render_chart.py` requires Pillow and regenerates the graphic with a portable font fallback, so typography may differ. Calculations do not require Pillow.
 
 Read `METHODOLOGY.md` for the counterfactual and evidence limits, `data/provenance.json` for original input hashes, and `MANIFEST.json` for hashes of this package's files.
 

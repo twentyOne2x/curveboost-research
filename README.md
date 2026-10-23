@@ -1,6 +1,6 @@
-# Boost research · attn.markets
+# Curve Boost research · attn.markets
 
-Data, methodology, calculations and charts supporting **Boost: built for the opening rush**. Snapshot: 23 October 2026. **Repository visibility: private.** The Boost article is an unpublished draft.
+Data, methodology, calculations and charts supporting **Curve Boost: built for the opening rush**. Snapshot: 23 October 2026. **Repository visibility: private.** The Curve Boost article is an unpublished draft.
 
 ## Check the article's numbers
 
@@ -12,7 +12,7 @@ Data, methodology, calculations and charts supporting **Boost: built for the ope
 | Pigeon: 3,604.63 → 6,000.32 SOL | [854-window fee study](studies/creator-fees-854/) | Reprice curve trades only; preserve recorded pool fees |
 | Ram: 807.51 → 1,583.14 SOL | Same fee study | Same calculation |
 
-The race export contains 8,821 tokens in 2,511 matched races, including 5,534 members of 1,219 contested races. A contested race has at least two members with $1,000 in own-first-hour volume. Every token's two-minute and one-hour windows start at its own first trade. This comparison measures retrospective opening leadership; it does not measure a common race-minute-two decision or a causal Boost effect.
+The race export contains 8,821 tokens in 2,511 matched races, including 5,534 members of 1,219 contested races. A contested race has at least two members with $1,000 in own-first-hour volume. Every token's two-minute and one-hour windows start at its own first trade. This comparison measures retrospective opening leadership; it does not measure a common race-minute-two decision or a causal Curve Boost effect.
 
 The fee examples cover 583 Pigeon and 271 Ram launches. All recorded traders, including launchers, are included. Only bonding-curve principal is repriced at 95 basis points; historical post-graduation fees stay unchanged. The scenario holds recorded trading activity fixed. USD display values use the retained study valuation of $107.24 per SOL. Methodology and exact integer inputs are in the fee folder.
 
