@@ -1,6 +1,6 @@
 # CurveBoost research · attn.markets
 
-Data, methodology, calculations and charts supporting **CurveBoost: built for the opening rush**. Snapshot: 23 October 2026. **Repository visibility: private.** The CurveBoost article is an unpublished draft.
+Data, methodology, calculations and charts supporting **CurveBoost: boost the opening rush**. Snapshot: 23 October 2026. **Repository visibility: private.** The CurveBoost article is an unpublished draft.
 
 ## Check the article's numbers
 

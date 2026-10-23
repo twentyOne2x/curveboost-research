@@ -20,8 +20,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3690,
-      "sha256": "bb13c10f02024b1f5fbac4fa60bab8b22fe4bc2c2b3a7e3b957a49b5513dfc26"
+      "bytes": 3686,
+      "sha256": "225a8405cfdc566abced6f5aa5d5f2d77bb88c2a522cd8d5ddb836a9f164fc23"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -30,28 +30,28 @@
     },
     {
       "path": "VERIFICATION.md",
-      "bytes": 1813,
-      "sha256": "94df6e9a03cd00cab46fa05c9f61d06ee73ffc01fc4d9bc510d9ad691fd1eee7"
+      "bytes": 1828,
+      "sha256": "ef230c411b52218a1e357b61d0045a27a9aa0a096b67078049b4f2c6b2bc69f3"
     },
     {
       "path": "article/README.md",
-      "bytes": 1122,
-      "sha256": "2c1736d6b0ffbea733eb8fbe90e6f4c4d28a193390bb0d9097b9e0b5f2c4e139"
+      "bytes": 1111,
+      "sha256": "1f7a0a583dc331237429cb9062c30b7d113c5df66938bfc0e3c080479dce91a4"
     },
     {
       "path": "article/boost-draft.txt",
-      "bytes": 2557,
-      "sha256": "052356c527f5ae4ca1e9c0fc2da4972d8300a0e438dce15852072b7c33e5634d"
+      "bytes": 2553,
+      "sha256": "4ea130177b1acea295006c36bfe44fbf5e4c19dd98742ad5542eb7020ea0f59c"
     },
     {
       "path": "article/cover-prompt.txt",
-      "bytes": 1997,
-      "sha256": "2a24eb2ae387b9e3609c1beb72a765ddf8bf388c1fa10480a0487550ecc3c633"
+      "bytes": 1864,
+      "sha256": "f34decebb696500b24c23c1873925911ce9a20127282263dacbded1c0fead472"
     },
     {
       "path": "article/cover.png",
-      "bytes": 1543102,
-      "sha256": "e201d7da48cfebef86de1519754be2038779de02a1aaa2477f57148b5373a6b9"
+      "bytes": 560754,
+      "sha256": "741ab0d91c63948a5e32a61f99807cb05f7c2286867e02cbbc3879981be6495e"
     },
     {
       "path": "article/curve-boost-logo.png",
