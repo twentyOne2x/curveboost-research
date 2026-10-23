@@ -1,6 +1,6 @@
 # Private evidence downloads
 
-Private draft release: [research-2026-10-23](https://github.com/twentyOne2x/boost-research/releases/tag/research-2026-10-23). GitHub authentication and repository access are required.
+Private draft release: [research-2026-10-23](https://github.com/twentyOne2x/boost-research/releases/tag/untagged-ad6a6ad78bb44ddfaeac). GitHub authentication and repository access are required.
 
 | Asset | Contents | Bytes | SHA-256 |
 | --- | --- | ---: | --- |
