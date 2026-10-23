@@ -35,8 +35,8 @@
     },
     {
       "path": "article/README.md",
-      "bytes": 2670,
-      "sha256": "5a5a02a2b426022b02dab71b801d3fa7e5a3e15f1c13d36e52596c020748fe06"
+      "bytes": 2887,
+      "sha256": "2d0e3c67494b0ff87ce12e2e08f08a25a2449ac551441ed5f236926e832f37f7"
     },
     {
       "path": "article/boost-draft.txt",
@@ -95,8 +95,8 @@
     },
     {
       "path": "article/personal-announcement-draft.txt",
-      "bytes": 698,
-      "sha256": "271765234b8da1a7740fbb7cc6903dd38220a2159269a1b4beaf8603ee8604de"
+      "bytes": 489,
+      "sha256": "b8977bc648cf01bff5e17ebaf1e43084136e9b9427da0691e6d150515a41ded1"
     },
     {
       "path": "pilots/helius-2026-10-23/LICENSE",
