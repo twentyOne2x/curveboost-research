@@ -1,16 +1,15 @@
-hey, i've been researching and developing CurveBoost lately. i think it has a lot of potential with the current state of the trenches and tools like @JoinProxima.
+in 1,219 contested vamp races, the 2-minute volume leader also led first-hour volume 82.6% of the time, vs 47.3% for the first token launched.
+
+in the sample i studied, if the bonding-curve volume repriced was at 95 bps creator fee:
+> @ramonos would have generated $83,179 more (+96.1%) across 271 launches
+> @esotericpigeon $256,914 more (+66.5%) across 583 launches
+in first-hour creator fees alone, based on the same recorded trades.
+
+i've been researching and developing CurveBoost lately. i think it has a lot of potential with the current state of the trenches and tools like @JoinProxima.
 
 the point is very simple: you borrow liquidity to jump @pumpfun's bonding curve and move the creator fee from 30 to 95 bps on the initial volume.
 
-in the sample i studied, if the bonding-curve volume repriced was at 95 bps creator fee:
-
-> @ramonos would have generated $83,179 more (+96.1%)
-
-> @esotericpigeon $256,914 more (+66.5%)
-
-in first-hour creator fees alone, based on the same recorded trades.
-
-you could also use it to vamp tokens and get an advantage in that opening race. across 1,219 contested races, the 2-minute volume leader also led first-hour volume 82.6% of the time. the first token launched led just 47.3%.
+you could also use it to vamp tokens and get an advantage in that opening race.
 
 this is my understanding of the trenches and how we could shift the battleground a bit. i'm sharing it to get feedback from the trenches.
 
