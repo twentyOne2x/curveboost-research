@@ -23,7 +23,7 @@ Optional PNG recreation uses an already-installed Pillow 10.1 or newer:
 python3 scripts/build_chart.py
 ```
 
-The renderer tries Arial, DejaVu Sans and Liberation Sans, then Pillow's scalable default font. It needs no machine-specific font path. Native SVG uses standard sans-serif fallbacks and can be opened or exported in any SVG-capable browser/editor. Font rasterization can vary by platform. `charts/original/` preserves the earlier article PNG/SVG unchanged; `charts/rebuilt/curveboost-opening-volume-v2.{png,svg}` holds the current CurveBoost graphics.
+The renderer tries Arial, DejaVu Sans and Liberation Sans, then Pillow's scalable default font. It needs no machine-specific font path. Native SVG uses standard sans-serif fallbacks and can be opened or exported in any SVG-capable browser/editor. Font rasterization can vary by platform. `charts/original/` preserves the earlier article PNG/SVG unchanged; `charts/rebuilt/curveboost-opening-volume-v3.{png,svg}` holds the current CurveBoost graphics.
 
 ## Contents
 
@@ -36,3 +36,5 @@ The renderer tries Arial, DejaVu Sans and Liberation Sans, then Pillow's scalabl
 - `charts/`: original article graphics and reconstructed counterparts.
 
 No private provider dashboard/account records, credentials, local absolute paths or original raw transaction pilot captures are included. Dataset rows contain public mint identifiers and source-supplied metadata. The repository owner controls integration and access.
+
+Chart rendering uses the [shared approved CurveBoost identity](../../article/brand/README.md); retain the repository layout so both charts use the same source artwork.

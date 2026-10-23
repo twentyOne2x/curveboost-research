@@ -4,8 +4,14 @@ from pathlib import Path
 from html import escape
 import json
 ROOT=Path(__file__).resolve().parents[1]
+
+# Resolve the same accepted-cover identity asset from the enclosing repository.
+import importlib.util
+brand_dir=next(p/'article/brand' for p in [ROOT,*ROOT.parents] if (p/'article/brand/brand_header.py').is_file())
+brand_spec=importlib.util.spec_from_file_location('curveboost_shared_brand',brand_dir/'brand_header.py')
+brand=importlib.util.module_from_spec(brand_spec);brand_spec.loader.exec_module(brand)
 OUT=ROOT/'figures'; W,H=1600,1380
-BG='#0B0C0E'; WHITE='#F4F3EF'; CHROME='#BABDC3'; MUTED='#999EA7'; RULE='#30343A'; BLUE='#E1E3E6'; GAIN='#70D99C'
+BG='#000000'; WHITE='#F4F3EF'; CHROME='#BABDC3'; MUTED='#999EA7'; RULE='#30343A'; BLUE='#E1E3E6'; GAIN='#70D99C'
 FONT=None
 class Plate:
  def __init__(self):
@@ -21,7 +27,7 @@ class Plate:
  def line(self,x,y,x2,y2,color=RULE,width=2):
   self.d.line((x*2,y*2,x2*2,y2*2),fill=color,width=width*2);self.s.append(f'<line x1="{x}" y1="{y}" x2="{x2}" y2="{y2}" stroke="{color}" stroke-width="{width}"/>')
  def save(self):
-  self.im.resize((W,H),Image.Resampling.LANCZOS).save(OUT/'curveboost-first-hour-fees-v2.png');(OUT/'curveboost-first-hour-fees-v2.svg').write_text(''.join(self.s)+'</svg>')
+  self.im.resize((W,H),Image.Resampling.LANCZOS).save(OUT/'curveboost-first-hour-fees-v3.png');(OUT/'curveboost-first-hour-fees-v3.svg').write_text(''.join(self.s)+'</svg>')
 def render(data):
  assert len(data['rows'])==2
  # Uplift is independently computed from exact lamports, never rounded display differences.
@@ -29,10 +35,7 @@ def render(data):
  from decimal import Decimal as D, ROUND_HALF_UP
  c=Plate()
  c.line(68,110,1532,110,RULE,2)
- mark=[(70+x,55+y) for x,y in [(0, 42), (14, 42), (28, 41), (39, 40), (47, 37), (53, 32), (57, 24), (60, 12), (62, 0), (65, 12), (70, -13), (68, 13), (80, 1), (71, 19), (85, 13), (73, 25), (79, 30), (69, 29), (65, 31), (61, 38), (51, 43), (35, 46), (14, 46), (0, 45)]]
- c.d.polygon([(x*2,y*2) for x,y in mark],fill=WHITE)
- c.s.append('<polygon points="'+' '.join(str(x)+','+str(y) for x,y in mark)+'" fill="'+WHITE+'"/>')
- c.text(163,50,'CurveBoost',32,bold=True);c.text(1170,54,'A product by attn.markets',25,color=CHROME)
+ brand.paste_header(c.im);c.s.append(brand.svg_header())
  c.text(68,177,'First-hour creator fees',76,bold=True)
  c.text(70,287,'Same recorded trades across 854 launches',31,color=CHROME)
  for i,(r,exact) in enumerate(zip(data['rows'],precise['results'])):

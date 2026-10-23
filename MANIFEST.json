@@ -30,18 +30,48 @@
     },
     {
       "path": "VERIFICATION.md",
-      "bytes": 1828,
-      "sha256": "ef230c411b52218a1e357b61d0045a27a9aa0a096b67078049b4f2c6b2bc69f3"
+      "bytes": 2222,
+      "sha256": "783034faad5a2d5d6c3748e870138e63800fc40bf5e25911ed197d05d3bb4004"
     },
     {
       "path": "article/README.md",
-      "bytes": 1111,
-      "sha256": "1f7a0a583dc331237429cb9062c30b7d113c5df66938bfc0e3c080479dce91a4"
+      "bytes": 1536,
+      "sha256": "4750e53d420ad271e5cd0a207d8ce9c8dfa452477ef486c57dcdf80d978ddbd6"
     },
     {
       "path": "article/boost-draft.txt",
       "bytes": 2553,
       "sha256": "4ea130177b1acea295006c36bfe44fbf5e4c19dd98742ad5542eb7020ea0f59c"
+    },
+    {
+      "path": "article/brand/README.md",
+      "bytes": 902,
+      "sha256": "0bcfbc486b0e226970b0cfb8fbaa20b8f2cfc625bcbc4394a0a252ccb1e20c62"
+    },
+    {
+      "path": "article/brand/brand_header.py",
+      "bytes": 1088,
+      "sha256": "ad49cf9e6a3faf4db095962fb4f061a2e416cfa2abf8301f539a63f580cce5b6"
+    },
+    {
+      "path": "article/brand/clip-regions.json",
+      "bytes": 1309,
+      "sha256": "84d6709d8fdd99f62afa0d8ecd8cd93b19f0ae6b1e85809fb4be78de08b4cee9"
+    },
+    {
+      "path": "article/brand/cover-master.png",
+      "bytes": 560754,
+      "sha256": "741ab0d91c63948a5e32a61f99807cb05f7c2286867e02cbbc3879981be6495e"
+    },
+    {
+      "path": "article/brand/curveboost-header.svg",
+      "bytes": 748563,
+      "sha256": "a3bde7a21bff4130ddffba80311e2a906c60cf18f3b35478347277fbacda4913"
+    },
+    {
+      "path": "article/brand/verification.json",
+      "bytes": 1572,
+      "sha256": "2dfcd5c24de73a5cadc70340c1b638ce02b78a72a13acc729f86bde099910188"
     },
     {
       "path": "article/cover-prompt.txt",
@@ -200,8 +230,8 @@
     },
     {
       "path": "studies/creator-fees-854/MANIFEST.json",
-      "bytes": 3416,
-      "sha256": "a6da1201750e7adb96ca8f67002bfdc7b4dc18ddfaf4886c029e975a8773fc0c"
+      "bytes": 3772,
+      "sha256": "b6cd903da8e37849ed30105cfbe716ad3b59bd1fcec571bd896b64509e1a39ff"
     },
     {
       "path": "studies/creator-fees-854/METHODOLOGY.md",
@@ -210,8 +240,8 @@
     },
     {
       "path": "studies/creator-fees-854/README.md",
-      "bytes": 3057,
-      "sha256": "661dd20212ac86bb8fe6989d5ee4b52fd4d3f582d516f7ba04461c4f05afefb1"
+      "bytes": 3226,
+      "sha256": "363e84393a2d533362de73c123712839ac7ffdd96c096a81ed34d8ef8b4cea6d"
     },
     {
       "path": "studies/creator-fees-854/data/event-asset-provenance.json",
@@ -274,6 +304,16 @@
       "sha256": "ae6a0e2e358ebefc92e61e4a4587cb6dcb17b7d3ca6c360c5b9b3b1331e3b97c"
     },
     {
+      "path": "studies/creator-fees-854/figures/curveboost-first-hour-fees-v3.png",
+      "bytes": 302161,
+      "sha256": "c3895d23eb9f572af5f4ddb5fea69f0174149c280653321689d72a4a65177535"
+    },
+    {
+      "path": "studies/creator-fees-854/figures/curveboost-first-hour-fees-v3.svg",
+      "bytes": 753726,
+      "sha256": "a87f0cd4f7f1ff6c006700579ea3323f8d2fa27e47f01550aa3a4e5e6180f805"
+    },
+    {
       "path": "studies/creator-fees-854/figures/uplift-proof.json",
       "bytes": 904,
       "sha256": "30081ca44029e6913fdb3c6455f30202af9171cc0181b954a3f813c8958b2eb0"
@@ -295,8 +335,8 @@
     },
     {
       "path": "studies/creator-fees-854/scripts/render_chart.py",
-      "bytes": 3880,
-      "sha256": "a056042e4e162c49af487f803c17372e3e40c384574d9f2b965d2208e4df99b4"
+      "bytes": 3821,
+      "sha256": "7298bc120dca24a1c790337d70c5f80df65ab5f806c83315d2b58703ddce13b5"
     },
     {
       "path": "studies/creator-fees-854/scripts/replay_events.py",
@@ -330,13 +370,13 @@
     },
     {
       "path": "studies/vamp-races-2026-10-23/PACKAGE-MANIFEST.json",
-      "bytes": 2490,
-      "sha256": "9b119ac46448bfcfd37a6322acd7a41a6c45f11ac1aee7070ca45494bc64cc5c"
+      "bytes": 2736,
+      "sha256": "dffb3a0b169ca2443064826690e3550c11107d8f8bb0ac0a14b222fada79d877"
     },
     {
       "path": "studies/vamp-races-2026-10-23/README.md",
-      "bytes": 2782,
-      "sha256": "fa6605247a9e5c557b18bc804a9eb0d2dc2b82bac64d7f92549233dcbf111828"
+      "bytes": 2951,
+      "sha256": "bac492287de664f786ab234cf65b61d5dbf84aed4271627b410696d10e795b1c"
     },
     {
       "path": "studies/vamp-races-2026-10-23/VERIFICATION.md",
@@ -372,6 +412,16 @@
       "path": "studies/vamp-races-2026-10-23/charts/rebuilt/curveboost-opening-volume-v2.svg",
       "bytes": 4176,
       "sha256": "54450d04348a95fd97501e67ac77a02714db8f1df062f01c4a4ccd2bb325b17b"
+    },
+    {
+      "path": "studies/vamp-races-2026-10-23/charts/rebuilt/curveboost-opening-volume-v3.png",
+      "bytes": 211702,
+      "sha256": "ece998d40791bb542ddc180709680af94e0fe5704f96f628b51ea257a5e83d02"
+    },
+    {
+      "path": "studies/vamp-races-2026-10-23/charts/rebuilt/curveboost-opening-volume-v3.svg",
+      "bytes": 752208,
+      "sha256": "3f68d58f6de9807c9e3296a472ef34a4aca7cb3750422bebc6564d1f1cbb3997"
     },
     {
       "path": "studies/vamp-races-2026-10-23/charts/rebuilt/vamp-opening-volume-v1.png",
@@ -445,8 +495,8 @@
     },
     {
       "path": "studies/vamp-races-2026-10-23/scripts/build_chart.py",
-      "bytes": 4064,
-      "sha256": "f5db7408fcdf89c8b1f364168eeafad58b648edf784147ffbf300881f03e5d6a"
+      "bytes": 4030,
+      "sha256": "be7b5c7cc8fe63ea663221482c53a92a051b7975d623fbf7d8a6cd40e12dade1"
     }
   ]
 }

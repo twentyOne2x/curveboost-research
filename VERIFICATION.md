@@ -13,3 +13,5 @@
 - Branding refresh: offline study-table reproduction passed; exact chart figures and native SVG regeneration checked. Original CSVs, fee calculations, normalized evidence, private release attachments and separate Helius pilot retained.
 
 These checks reproduce the retained research inputs and arithmetic. Dataset provenance and observational/counterfactual definitions are documented in the corresponding study folders.
+
+24 October 2026 branding consistency check: the accepted cover is unchanged. Both updated chart headers use the same shared source-pixel artwork, including the curve/spark, CurveBoost lettering and attribution; their rendered header pixels match exactly. All three @attndotmarkets article links point to https://x.com/attndotmarkets. Research data, calculations and fee amounts are unchanged.

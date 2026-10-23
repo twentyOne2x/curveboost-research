@@ -1,0 +1,90 @@
+{
+  "status": "PASS",
+  "acceptedCoverAndMasterSha256": "741ab0d91c63948a5e32a61f99807cb05f7c2286867e02cbbc3879981be6495e",
+  "sharedHeaderSvgSha256": "a3bde7a21bff4130ddffba80311e2a906c60cf18f3b35478347277fbacda4913",
+  "sharedPixelHeaderRegion": [
+    68,
+    35,
+    1532,
+    103
+  ],
+  "bothChartHeaderPixelSha256": "092d5537ade535868543a7474bb9f409ef790aabb26d3ef018aa9b05713c528d",
+  "bothChartHeadersPixelIdentical": true,
+  "masterImageBytesEmbeddedInSharedSVG": true,
+  "noLogoOrWordmarkRedraw": true,
+  "feeChartInputUnchanged": true,
+  "raceSVGOnlyMatches": true,
+  "parts": [
+    {
+      "name": "thin-curve-and-spark",
+      "sourceBox": [
+        35,
+        45,
+        880,
+        670
+      ],
+      "sourceClipPolygon": [
+        [
+          35,
+          45
+        ],
+        [
+          880,
+          45
+        ],
+        [
+          880,
+          220
+        ],
+        [
+          805,
+          220
+        ],
+        [
+          805,
+          670
+        ],
+        [
+          35,
+          670
+        ]
+      ],
+      "targetBox": [
+        0,
+        0,
+        100,
+        68
+      ]
+    },
+    {
+      "name": "exact-CurveBoost-wordmark",
+      "sourceBox": [
+        806,
+        326,
+        1944,
+        507
+      ],
+      "targetBox": [
+        112,
+        16,
+        270,
+        43
+      ]
+    },
+    {
+      "name": "exact-By-attn-markets-attribution",
+      "sourceBox": [
+        1586,
+        48,
+        1955,
+        105
+      ],
+      "targetBox": [
+        1190,
+        18,
+        274,
+        42
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "master": "cover-master.png",
+  "masterSize": [
+    1983,
+    793
+  ],
+  "masterSha256": "741ab0d91c63948a5e32a61f99807cb05f7c2286867e02cbbc3879981be6495e",
+  "headerSize": [
+    1464,
+    68
+  ],
+  "parts": [
+    {
+      "name": "thin-curve-and-spark",
+      "sourceBox": [
+        35,
+        45,
+        880,
+        670
+      ],
+      "sourceClipPolygon": [
+        [
+          35,
+          45
+        ],
+        [
+          880,
+          45
+        ],
+        [
+          880,
+          220
+        ],
+        [
+          805,
+          220
+        ],
+        [
+          805,
+          670
+        ],
+        [
+          35,
+          670
+        ]
+      ],
+      "targetBox": [
+        0,
+        0,
+        100,
+        68
+      ]
+    },
+    {
+      "name": "exact-CurveBoost-wordmark",
+      "sourceBox": [
+        806,
+        326,
+        1944,
+        507
+      ],
+      "targetBox": [
+        112,
+        16,
+        270,
+        43
+      ]
+    },
+    {
+      "name": "exact-By-attn-markets-attribution",
+      "sourceBox": [
+        1586,
+        48,
+        1955,
+        105
+      ],
+      "targetBox": [
+        1190,
+        18,
+        274,
+        42
+      ]
+    }
+  ],
+  "rule": "Original accepted cover pixels only. Clipped/composed/scaled; no redrawn curve, spark or wordmark."
+}

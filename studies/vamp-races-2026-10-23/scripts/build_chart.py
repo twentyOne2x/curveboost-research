@@ -3,6 +3,13 @@ from pathlib import Path
 from html import escape
 import argparse,json
 PACKAGE=Path(__file__).resolve().parents[1]
+ROOT=PACKAGE
+# Resolve the same accepted-cover identity asset from the enclosing repository.
+import importlib.util
+brand_dir=next(p/'article/brand' for p in [ROOT,*ROOT.parents] if (p/'article/brand/brand_header.py').is_file())
+brand_spec=importlib.util.spec_from_file_location('curveboost_shared_brand',brand_dir/'brand_header.py')
+brand=importlib.util.module_from_spec(brand_spec);brand_spec.loader.exec_module(brand)
+
 p=argparse.ArgumentParser();p.add_argument('--results',type=Path,default=PACKAGE/'results/vamp-review.json');p.add_argument('--out',type=Path,default=PACKAGE/'charts/rebuilt');p.add_argument('--svg-only',action='store_true');args=p.parse_args();OUT=args.out;OUT.mkdir(parents=True,exist_ok=True)
 data=json.loads(args.results.read_text());cohort=next(c for c in data['cohorts'] if c['label']=='contested');den=cohort['races'];opening=cohort['leaderWins1h']['yes'];first=cohort['firstLaunchWins1h']['yes']
 assert (den,opening,first)==(1219,1007,577)
@@ -12,7 +19,7 @@ try:
 except ImportError:
  Image=ImageDraw=ImageFont=None
 W,H=1600,1100
-BG='#0B0C0E';WHITE='#F4F3EF';MUTED='#AAAEB5';BLUE='#E1E3E6';SILVER='#777D86';RULE='#30343A'
+BG='#000000';WHITE='#F4F3EF';MUTED='#AAAEB5';BLUE='#E1E3E6';SILVER='#777D86';RULE='#30343A'
 im=Image.new('RGB',(W*2,H*2),BG) if Image else None;d=ImageDraw.Draw(im) if im else None
 s=[f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}"><rect width="{W}" height="{H}" fill="{BG}"/>']
 def font(size,bold):
@@ -29,11 +36,8 @@ def line(x,y,x2,y2,color=RULE,width=2):
 def rect(x,y,w,h,color):
  if d:d.rectangle((x*2,y*2,(x+w)*2,(y+h)*2),fill=color)
  s.append(f'<rect x="{x}" y="{y}" width="{w}" height="{h}" fill="{color}"/>')
-mark=[(70+x,55+y) for x,y in [(0, 42), (14, 42), (28, 41), (39, 40), (47, 37), (53, 32), (57, 24), (60, 12), (62, 0), (65, 12), (70, -13), (68, 13), (80, 1), (71, 19), (85, 13), (73, 25), (79, 30), (69, 29), (65, 31), (61, 38), (51, 43), (35, 46), (14, 46), (0, 45)]]
-if d:d.polygon([(x*2,y*2) for x,y in mark],fill=WHITE)
-s.append('<polygon points="'+' '.join(str(x)+','+str(y) for x,y in mark)+'" fill="'+WHITE+'"/>')
-text(163,50,'CurveBoost',32,bold=True)
-text(1170,54,'A product by attn.markets',25,color=MUTED)
+if im:brand.paste_header(im)
+s.append(brand.svg_header())
 line(70,110,1530,110,RULE)
 text(70,146,f'{den:,} CONTESTED VAMP RACES',25,color=MUTED,bold=True)
 text(70,204,'Opening volume and',73,bold=True)
@@ -54,8 +58,8 @@ for label,n,den,color,y in rows:
 line(70,942,1530,942)
 text(70,967,'At least two tokens with $1,000+ first-hour volume.',27,color=MUTED)
 text(70,1008,'Each token uses its own two-minute and one-hour windows.',27,color=MUTED)
-text(70,1049,'Launches: 22–23 Oct 2026 · @Circular_fi export · attn.markets',24,color=MUTED)
+text(70,1049,'Launches: 22–23 Oct 2026 · @Circular_fi export · @attndotmarkets',24,color=MUTED)
 
-(OUT/'curveboost-opening-volume-v2.svg').write_text(''.join(s)+'</svg>')
-if im:im.resize((W,H),Image.Resampling.LANCZOS).save(OUT/'curveboost-opening-volume-v2.png')
+(OUT/'curveboost-opening-volume-v3.svg').write_text(''.join(s)+'</svg>')
+if im:im.resize((W,H),Image.Resampling.LANCZOS).save(OUT/'curveboost-opening-volume-v3.png')
 print('SVG written; PNG '+('written with installed font fallback' if im else 'not requested or optional Pillow unavailable'))

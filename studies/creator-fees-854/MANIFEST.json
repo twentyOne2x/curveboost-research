@@ -7,8 +7,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3057,
-      "sha256": "661dd20212ac86bb8fe6989d5ee4b52fd4d3f582d516f7ba04461c4f05afefb1"
+      "bytes": 3226,
+      "sha256": "363e84393a2d533362de73c123712839ac7ffdd96c096a81ed34d8ef8b4cea6d"
     },
     {
       "path": "data/event-asset-provenance.json",
@@ -71,6 +71,16 @@
       "sha256": "ae6a0e2e358ebefc92e61e4a4587cb6dcb17b7d3ca6c360c5b9b3b1331e3b97c"
     },
     {
+      "path": "figures/curveboost-first-hour-fees-v3.png",
+      "bytes": 302161,
+      "sha256": "c3895d23eb9f572af5f4ddb5fea69f0174149c280653321689d72a4a65177535"
+    },
+    {
+      "path": "figures/curveboost-first-hour-fees-v3.svg",
+      "bytes": 753726,
+      "sha256": "a87f0cd4f7f1ff6c006700579ea3323f8d2fa27e47f01550aa3a4e5e6180f805"
+    },
+    {
       "path": "figures/uplift-proof.json",
       "bytes": 904,
       "sha256": "30081ca44029e6913fdb3c6455f30202af9171cc0181b954a3f813c8958b2eb0"
@@ -92,8 +102,8 @@
     },
     {
       "path": "scripts/render_chart.py",
-      "bytes": 3880,
-      "sha256": "a056042e4e162c49af487f803c17372e3e40c384574d9f2b965d2208e4df99b4"
+      "bytes": 3821,
+      "sha256": "7298bc120dca24a1c790337d70c5f80df65ab5f806c83315d2b58703ddce13b5"
     },
     {
       "path": "scripts/replay_events.py",
