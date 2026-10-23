@@ -1,0 +1,7 @@
+I've been researching and building CurveBoost lately.
+
+With tools like Proxima in the mix, I think there's room to shift the opening battleground beyond the bonding curve so more volume generates higher creator fees.
+
+It fits into what we're building at @attndotmarkets. The launchpad comes first; more on that soon.
+
+I've put the data, vision and open questions in the article. Deployers and traders: would you use this? What would make the capital recycling feel fair?

@@ -1,33 +1,37 @@
 CurveBoost: boost the opening rush
 
-@pumpfun saw 46,528 launches on 22 October 2026, about 32 per minute on average, according to @tehcscreener.
+@pumpfun saw 46,528 launches on 22 October 2026, about 32 per minute, according to @tehcscreener. Tokens compete for the same idea within seconds.
 
-Tokens routinely compete for the same idea within seconds. We're building CurveBoost at @attndotmarkets around one goal: make more of a launch's opening volume happen after graduation, at the highest creator-fee rate.
+We're building CurveBoost at @attndotmarkets to shift that battleground beyond the bonding curve: bring graduation forward so more opening volume generates higher creator fees.
 
-Across 1,219 contested launch races in @Circular_fi's 22-23 October 2026 dataset, the token with the strongest own two-minute opening also led first-hour volume in 82.6% of races. The first token launched won 47.3%. Each race had at least two tokens with $1,000 in first-hour volume. Races matched ticker and similar name or identical image; each token's windows start at its own first trade.
+Opening volume matters
 
-CurveBoost is designed to bring graduation forward so that opening activity can generate higher creator fees, instead of spending that window on the bonding curve.
+Across 1,219 contested races in @Circular_fi's 22-23 October dataset, the strongest two-minute opening led first-hour volume in 82.6% of races. The first launch won 47.3%. Each race had two or more tokens above $1,000 in first-hour volume, matched by ticker and similar name or identical image. Windows start at each token's first trade.
 
 What the first hour could have paid
 
-Our analysis covers 854 complete first-hour trading histories and the creator fees they generated. @pumpfun's creator fees are 30 basis points (0.30%) on the bonding curve, versus 95 basis points (0.95%) in PumpSwap's 420 to 1,470 SOL market-cap tier. We repriced only the bonding-curve volume at that higher rate. Existing post-graduation fees stay unchanged. All trades count, including the original launchers' trades.
+Across 854 first-hour histories, we repriced only bonding-curve volume from @pumpfun's 30 bps (0.30%) to PumpSwap's 95 bps (0.95%) creator-fee tier at 420-1,470 SOL market cap. Existing post-graduation fees stay unchanged; all trades count, including launchers'. With creators keeping the full allocation:
 
-With the creator keeping the full fee allocation:
+Pigeon (@esotericpigeon), 583 launches: 3,604.63 SOL ($386,560) becomes 6,000.32 SOL ($643,474).
 
-Pigeon (@esotericpigeon), 583 launches: 3,604.63 SOL ($386,560) in recorded first-hour creator fees becomes 6,000.32 SOL ($643,474).
+Ram (@ramonos), 271 launches: 807.51 SOL ($86,597) becomes 1,583.14 SOL ($169,776).
 
-Ram (@ramonos), 271 launches: 807.51 SOL ($86,597) in recorded first-hour creator fees becomes 1,583.14 SOL ($169,776).
+The same trading activity could generate more creator fees. For launches around someone's work, a larger fee pot could also give them a stronger reason to claim it.
 
-The same trading activity pays more to its creator because the bonding-curve portion happens after graduation.
+A sustainable model for CurveBoosters
 
-Give the creator a reason to claim
+The vision is a DeFi product where CurveBoosters provide liquidity to deployers and earn compensation for their capital and launch support.
 
-When a token launches around someone's work, the fees are an invitation to get involved. CurveBoost aims to make that invitation worth claiming by building a larger fee pot during the window that matters most.
+The business model remains open: retaining inventory, boosting only when volume is sufficient, taking a share of creator fees, or combining these approaches. Its economics depend on @pumpfun's current fee policy.
 
-Whether you assign the fees to another creator or keep them yourself, the goal is the same: more creator fees from the opening volume.
+Capital needs to be recycled. Unless ongoing fees justify keeping it deployed, recovering capital could require selling the entire booster inventory, potentially quickly. Making that process transparent enough for traders to react, while preserving meaningful exposure for the original deployer, is central to the design. The goal is a fairer battleground with clearer rules for that transition.
 
-CurveBoost is still in development. We're building it into the launchpad at @attndotmarkets, and plan to use it for our own launches.
+Part of what we're building
 
-Race data: @Circular_fi (22-23 October 2026). Fee rates: @pumpfun. Fee examples: retained launch studies. USD equivalents use the study's 14 October 2026 rate of $107.24 per SOL.
+We're building a launchpad for our own products, other founders and launches around people or ideas. Creator fees could support recurring income across those launches. CurveBoost is intended for original tokens, vampire launches and the "please bro" meta alike.
+
+We plan to release the underlying launchpad product first and share more soon. CurveBoost is still in development. We'd like feedback from deployers and traders on the incentives, transparency and capital-recycling design.
+
+USD: retained study rate, $107.24/SOL (14 October 2026).
 
 @attndotmarkets · Data, methodology and calculations
