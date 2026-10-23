@@ -1,9 +1,9 @@
 Hey, I've been researching and developing CurveBoost lately. I think it has a lot of potential with the current state of the trenches and tools like Proxima.
 
-This article is essentially the latest iteration of our understanding of the trenches and how we could shift the battleground a bit.
+The point is very simple: you borrow liquidity to jump @pumpfun's bonding curve and move the creator fee from 30 to 95 basis points on the initial volume. That's it.
 
-The desired outcome is very simple: you can borrow liquidity to reach @pumpfun's highest creator-fee tier. It's about the initial fees. It's a Pump-only product.
+This is my understanding of the trenches and how we could shift the battleground a bit. I'm sharing it to get feedback from the trenches.
 
-It's going to fit naturally into our own launchpad, which we're going to release first and talk about soon.
+In practice, it seems like a positive outcome for everybody except Pump, provided what happens to the inventory is transparent. The business model is still not 100% figured out.
 
-I'm sharing the article to get feedback from the trenches. In practice, it seems like a positive outcome for everyone except Pump, provided what happens to the inventory is transparent. The business model is still not 100% figured out.
+It's a Pump-only product, and it's going to fit naturally into our own launchpad, which we're going to release first and talk about soon.
