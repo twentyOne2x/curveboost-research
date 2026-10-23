@@ -1,7 +1,9 @@
-been researching the trenches a lot lately and building CurveBoost.
+Hey, I've been researching and developing CurveBoost lately. I think it has a lot of potential with the current state of the trenches and tools like Proxima.
 
-with tools like Proxima around, i think there's something here. the idea is pretty simple: borrow liquidity to get to @pumpfun's highest creator-fee tier sooner, so the same opening volume can pay more to the creator.
+This article is essentially the latest iteration of our understanding of the trenches and how we could shift the battleground a bit.
 
-still figuring out the model and how the inventory should be handled. this is where my thinking is at for now.
+The desired outcome is very simple: you can borrow liquidity to reach @pumpfun's highest creator-fee tier. It's about the initial fees. It's a Pump-only product.
 
-curious what people actually in the trenches think. would you use it? what am i missing?
+It's going to fit naturally into our own launchpad, which we're going to release first and talk about soon.
+
+I'm sharing the article to get feedback from the trenches. In practice, it seems like a positive outcome for everyone except Pump, provided what happens to the inventory is transparent. The business model is still not 100% figured out.
