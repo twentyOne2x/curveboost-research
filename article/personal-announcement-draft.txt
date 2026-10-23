@@ -1,7 +1,9 @@
-I've been researching and building CurveBoost lately.
+I've been researching and building CurveBoost lately. This article is the latest iteration of how I see the trenches, with tools like Proxima in the mix, and how we could shift the battleground.
 
-With tools like Proxima in the mix, I think there's room to shift the opening battleground beyond the bonding curve so more volume generates higher creator fees.
+The idea is simple: borrow liquidity to reach @pumpfun's highest creator-fee tier sooner and earn more from the opening volume. Pump-only.
 
-It fits into what we're building at @attndotmarkets. The launchpad comes first; more on that soon.
+The thesis is a better deal for creators, deployers, liquidity providers and traders, with more fees going to creators and less to Pump's protocol. Transparent inventory and exit rules are essential.
 
-I've put the data, vision and open questions in the article. Deployers and traders: would you use this? What would make the capital recycling feel fair?
+It fits into what we're building at @attndotmarkets. Launchpad first; more soon.
+
+Trenches: would you use it? What would make the inventory and exit rules fair?

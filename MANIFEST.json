@@ -30,18 +30,18 @@
     },
     {
       "path": "VERIFICATION.md",
-      "bytes": 3440,
-      "sha256": "fb2e2dea688e7fd8b1a35879b2ca4aaaf39e8659210c1e69b7461798b0998ed1"
+      "bytes": 4101,
+      "sha256": "dcb511bd4e04b735f7f39ebc7a0f391618fdeb2c2ef07ae6527ac39b59039c20"
     },
     {
       "path": "article/README.md",
-      "bytes": 2308,
-      "sha256": "095fb04b84f248316d73fb874cbb54b8badb4892229d927dd1ff1e0c4fe83ed2"
+      "bytes": 2670,
+      "sha256": "5a5a02a2b426022b02dab71b801d3fa7e5a3e15f1c13d36e52596c020748fe06"
     },
     {
       "path": "article/boost-draft.txt",
-      "bytes": 2837,
-      "sha256": "ff448e236505066561ef85d942bb3b424173a3614a1c865ae4a9a986ad06143a"
+      "bytes": 2997,
+      "sha256": "a668478c494607fed6bfa8731eaba7738ae1e6f1e01946ac8c99866d7e31dc71"
     },
     {
       "path": "article/brand/README.md",
@@ -95,8 +95,8 @@
     },
     {
       "path": "article/personal-announcement-draft.txt",
-      "bytes": 471,
-      "sha256": "802ca42312ed9beef738f08c0ffed648dad110aeafb1a377a6b449a4157b3b6f"
+      "bytes": 698,
+      "sha256": "271765234b8da1a7740fbb7cc6903dd38220a2159269a1b4beaf8603ee8604de"
     },
     {
       "path": "pilots/helius-2026-10-23/LICENSE",

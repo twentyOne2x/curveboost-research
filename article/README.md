@@ -1,6 +1,6 @@
 # CurveBoost article and identity
 
-Current Typefully draft: **CurveBoost: boost the opening rush**, 411 words, unpublished.
+Current Typefully draft: **CurveBoost: boost the opening rush**, 441 words, unpublished.
 
 - [Article text](boost-draft.txt)
 - [Article cover](cover.png)
@@ -19,3 +19,5 @@ The chart headers reuse the approved cover’s exact source pixels for its thin 
 The first-hour creator-fee chart includes the original public profile pictures of @esotericpigeon and @ramonos. Image sources, capture times and hashes are retained in [the avatar provenance](../studies/creator-fees-854/figures/avatars/provenance.json).
 
 The expanded article includes the proposed CurveBooster liquidity model, open revenue options, capital recycling and inventory-sale design, intended launch types, and launchpad integration. The [first-person announcement](personal-announcement-draft.txt) invites deployer/trader feedback and supplies the Proxima context. Both are unpublished Typefully drafts. The current connected X profile is @attndotmarkets; select the intended personal profile and attach the published article before posting the announcement.
+
+The current framing is a Pump-only proposal to borrow liquidity and reach the maximum creator-fee tier sooner, with an emphasis on initial trading fees. The article and announcement present the broader benefit as a working thesis, invite feedback, and identify transparent booster-inventory handling and deployer allocation/supply expectations as design goals.
