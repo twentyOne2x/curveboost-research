@@ -30,8 +30,8 @@
     },
     {
       "path": "VERIFICATION.md",
-      "bytes": 6129,
-      "sha256": "8ab8bfb33f2057e58b84cc6a692aaa7d8f7620a8b3f902532e1da3554c3f0aec"
+      "bytes": 6542,
+      "sha256": "2d2a6f57dcc1c0b35de289f9691015dee874142f266d93006a2ef42461c0ad65"
     },
     {
       "path": "article/README.md",
@@ -40,8 +40,8 @@
     },
     {
       "path": "article/boost-draft.txt",
-      "bytes": 3031,
-      "sha256": "f86a27d41aedb2ceff735e2c58d128dd3307faf78b10e4ea892f6c86d2d6d6f7"
+      "bytes": 3021,
+      "sha256": "ec695099e9ebedd0543c590d41b007e59a0d7240eb7e88a67735b7e4e630788b"
     },
     {
       "path": "article/brand/README.md",

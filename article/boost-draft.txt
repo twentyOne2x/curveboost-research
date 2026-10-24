@@ -12,9 +12,9 @@ What the first hour could have paid
 
 Across 854 first-hour histories, we repriced only bonding-curve volume from @pumpfun's 30 bps (0.30%) to PumpSwap's 95 bps (0.95%) creator-fee tier at 420-1,470 SOL market cap. Existing post-graduation fees stay unchanged; all trades count, including launchers'. With creators keeping the full allocation:
 
-Pigeon (@esotericpigeon), 583 launches: 3,604.63 SOL ($386,560) becomes 6,000.32 SOL ($643,474).
+Pigeon (@esotericpigeon), 583 launches: $256,914 more in first-hour creator fees (+66.5%)!
 
-Ram (@ramonos), 271 launches: 807.51 SOL ($86,597) becomes 1,583.14 SOL ($169,776).
+Ram (@ramonos), 271 launches: $83,179 more in first-hour creator fees (+96.1%)!
 
 The same trading activity could generate more creator fees. For plsbro launches, a larger fee pot could also give them a stronger reason to claim it.
 
