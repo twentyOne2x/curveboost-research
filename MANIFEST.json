@@ -30,13 +30,13 @@
     },
     {
       "path": "VERIFICATION.md",
-      "bytes": 4627,
-      "sha256": "9889699d854ed83b5466aa06eeb828d0d5426b8d5c70ecab137ef28b911a9f9a"
+      "bytes": 5444,
+      "sha256": "4d4d4fa533fddc00f0501e890b8506f6035170133bb45b012cef0ba0f20457e4"
     },
     {
       "path": "article/README.md",
-      "bytes": 3021,
-      "sha256": "f924af63f89479aa5b9e840ede37586415688f5ec3a949f73c811156a64a08e3"
+      "bytes": 3443,
+      "sha256": "501b76da52f5d0e42ddb54725c2a5dca5ea303f8209cc900d2dd262d43cd56a9"
     },
     {
       "path": "article/boost-draft.txt",
@@ -45,8 +45,8 @@
     },
     {
       "path": "article/brand/README.md",
-      "bytes": 902,
-      "sha256": "0bcfbc486b0e226970b0cfb8fbaa20b8f2cfc625bcbc4394a0a252ccb1e20c62"
+      "bytes": 918,
+      "sha256": "3448cb9f21215075db08b159cdd8e0a52317b40948c5734c372b3e60436f70e6"
     },
     {
       "path": "article/brand/brand_header.py",
@@ -55,33 +55,33 @@
     },
     {
       "path": "article/brand/clip-regions.json",
-      "bytes": 1309,
-      "sha256": "84d6709d8fdd99f62afa0d8ecd8cd93b19f0ae6b1e85809fb4be78de08b4cee9"
+      "bytes": 1318,
+      "sha256": "d101e943b34823c5d4577205bfeae803fa9a82976c891b4506dad97520602ea0"
     },
     {
       "path": "article/brand/cover-master.png",
-      "bytes": 560754,
-      "sha256": "741ab0d91c63948a5e32a61f99807cb05f7c2286867e02cbbc3879981be6495e"
+      "bytes": 1101604,
+      "sha256": "03243739a78b941a2f62467b9e1018f6654ce9a83eac1a35e7aaae799f86f01e"
     },
     {
       "path": "article/brand/curveboost-header.svg",
-      "bytes": 748563,
-      "sha256": "a3bde7a21bff4130ddffba80311e2a906c60cf18f3b35478347277fbacda4913"
+      "bytes": 1469671,
+      "sha256": "5e6fd134bad7b93ad2dadcc4f24af01dfecb3cc11d89d88dfb38e906dbebe920"
     },
     {
       "path": "article/brand/verification.json",
-      "bytes": 1572,
-      "sha256": "2dfcd5c24de73a5cadc70340c1b638ce02b78a72a13acc729f86bde099910188"
+      "bytes": 1625,
+      "sha256": "9e662bc093f36f36d700b6c0a14bd504853ea59fcb378205c30b6d9dc664dc91"
     },
     {
       "path": "article/cover-prompt.txt",
-      "bytes": 1864,
-      "sha256": "f34decebb696500b24c23c1873925911ce9a20127282263dacbded1c0fead472"
+      "bytes": 323,
+      "sha256": "817573c0dfe182d29646f70ca118499245cddf0e63b1f32fa46e27387f110e24"
     },
     {
       "path": "article/cover.png",
-      "bytes": 560754,
-      "sha256": "741ab0d91c63948a5e32a61f99807cb05f7c2286867e02cbbc3879981be6495e"
+      "bytes": 1101604,
+      "sha256": "03243739a78b941a2f62467b9e1018f6654ce9a83eac1a35e7aaae799f86f01e"
     },
     {
       "path": "article/curve-boost-logo.png",
@@ -235,8 +235,8 @@
     },
     {
       "path": "studies/creator-fees-854/MANIFEST.json",
-      "bytes": 4970,
-      "sha256": "398ca2bdb8d4ac71c7f0eceb012c85cfad2c4a46bd8c63fe41df42bf4a4a0bb9"
+      "bytes": 5327,
+      "sha256": "4ca8b1418e7f5fdc5b6412d83582f932d21deaf0152853cc71d705a39f158c5f"
     },
     {
       "path": "studies/creator-fees-854/METHODOLOGY.md",
@@ -246,7 +246,7 @@
     {
       "path": "studies/creator-fees-854/README.md",
       "bytes": 3453,
-      "sha256": "1a29dd4acb816621ebfe7ccaa92e80bb82b0be165f9e0de36776a563e5f1ee98"
+      "sha256": "ee1006749f82adfdac4762c5ddb6ceea279f31e2c05e861699db97c9986bc60b"
     },
     {
       "path": "studies/creator-fees-854/data/event-asset-provenance.json",
@@ -354,6 +354,16 @@
       "sha256": "a2242d8a79e254d6e475f4f11ccab61d79d18c290293229c172bd11322c2c920"
     },
     {
+      "path": "studies/creator-fees-854/figures/curveboost-first-hour-fees-v5.png",
+      "bytes": 332174,
+      "sha256": "7b0340264cc2d780f9ca018ee2053fd114b43c6b83fc24cfe4073cc4e1c36cc6"
+    },
+    {
+      "path": "studies/creator-fees-854/figures/curveboost-first-hour-fees-v5.svg",
+      "bytes": 1552228,
+      "sha256": "e407455181541b83bf3b1ee22f478820762340904d839ac18a7dfa834a8a82d9"
+    },
+    {
       "path": "studies/creator-fees-854/figures/uplift-proof.json",
       "bytes": 904,
       "sha256": "30081ca44029e6913fdb3c6455f30202af9171cc0181b954a3f813c8958b2eb0"
@@ -376,7 +386,7 @@
     {
       "path": "studies/creator-fees-854/scripts/render_chart.py",
       "bytes": 4808,
-      "sha256": "8f1e990eab4b522e5cf43c4b26a055870ee1abfeba02ded7589a67dc77cbb493"
+      "sha256": "48bb7f6ddda1fbc3b16e27b6c8ea9475b12cc6bfb4c86d2023ca03fed3a1aed1"
     },
     {
       "path": "studies/creator-fees-854/scripts/replay_events.py",
@@ -410,13 +420,13 @@
     },
     {
       "path": "studies/vamp-races-2026-10-23/PACKAGE-MANIFEST.json",
-      "bytes": 2736,
-      "sha256": "dffb3a0b169ca2443064826690e3550c11107d8f8bb0ac0a14b222fada79d877"
+      "bytes": 2982,
+      "sha256": "5a6778f5cd1e556b29089ac36e1a3ca0b743239a915ce9f9b67a457c810e90ca"
     },
     {
       "path": "studies/vamp-races-2026-10-23/README.md",
       "bytes": 2951,
-      "sha256": "bac492287de664f786ab234cf65b61d5dbf84aed4271627b410696d10e795b1c"
+      "sha256": "3e12f89db5148448f62fe516b264f22dd95261cbaca1ece8c1aadea0e910132b"
     },
     {
       "path": "studies/vamp-races-2026-10-23/VERIFICATION.md",
@@ -462,6 +472,16 @@
       "path": "studies/vamp-races-2026-10-23/charts/rebuilt/curveboost-opening-volume-v3.svg",
       "bytes": 752208,
       "sha256": "3f68d58f6de9807c9e3296a472ef34a4aca7cb3750422bebc6564d1f1cbb3997"
+    },
+    {
+      "path": "studies/vamp-races-2026-10-23/charts/rebuilt/curveboost-opening-volume-v4.png",
+      "bytes": 305157,
+      "sha256": "43c9ba68d59698c83186df4f27c747511c6b592c370270023457d280f380232a"
+    },
+    {
+      "path": "studies/vamp-races-2026-10-23/charts/rebuilt/curveboost-opening-volume-v4.svg",
+      "bytes": 1474028,
+      "sha256": "137f7f95d6fd18f88106b00ee762e73b8d077f59f5e2d7e2ee59aa5a72531b70"
     },
     {
       "path": "studies/vamp-races-2026-10-23/charts/rebuilt/vamp-opening-volume-v1.png",
@@ -535,8 +555,8 @@
     },
     {
       "path": "studies/vamp-races-2026-10-23/scripts/build_chart.py",
-      "bytes": 4030,
-      "sha256": "be7b5c7cc8fe63ea663221482c53a92a051b7975d623fbf7d8a6cd40e12dade1"
+      "bytes": 4358,
+      "sha256": "d6c1dedb910298e866333c3e7da71e8e4a81068fd4d8038c2f4e4188fcfe70ad"
     }
   ]
 }

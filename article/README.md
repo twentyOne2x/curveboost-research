@@ -7,14 +7,14 @@ Current Typefully draft: **CurveBoost: boost the opening rush**, 448 words, unpu
 - [Current product lockup](cover.png)
 - [Shared chart brand header](brand/curveboost-header.svg), [source regions](brand/clip-regions.json) and [verification](brand/verification.json)
 - [Earlier two-word logo concept](curve-boost-logo.png)
-- [Opening-volume chart](../studies/vamp-races-2026-10-23/charts/rebuilt/curveboost-opening-volume-v3.png) and [SVG](../studies/vamp-races-2026-10-23/charts/rebuilt/curveboost-opening-volume-v3.svg)
-- [First-hour creator-fee chart](../studies/creator-fees-854/figures/curveboost-first-hour-fees-v4.png) and [SVG](../studies/creator-fees-854/figures/curveboost-first-hour-fees-v4.svg)
+- [Opening-volume chart](../studies/vamp-races-2026-10-23/charts/rebuilt/curveboost-opening-volume-v4.png) and [SVG](../studies/vamp-races-2026-10-23/charts/rebuilt/curveboost-opening-volume-v4.svg)
+- [First-hour creator-fee chart](../studies/creator-fees-854/figures/curveboost-first-hour-fees-v5.png) and [SVG](../studies/creator-fees-854/figures/curveboost-first-hour-fees-v5.svg)
 
 The flat exponential curve-to-spark cover was generated using the built-in image-generation tool. Current [cover prompt](cover-prompt.txt) and earlier [logo concept prompt](logo-prompt.txt). Charts use deterministic native rendering from the unchanged study values. Earlier graphics remain in the study folders for reference.
 
-Cover attribution: **By attn.markets**. CurveBoost is still in development. The research repository remains private.
+Cover attribution: **an attn.markets product**. CurveBoost is still in development. The research repository remains private.
 
-The chart headers reuse the approved cover’s exact source pixels for its thin curve/spark, CurveBoost wordmark and By attn.markets attribution. Both chart headers are pixel-identical. The account handle is @attndotmarkets, linked to https://x.com/attndotmarkets in the draft.
+The chart headers reuse the approved cover’s exact source pixels for its thin curve/spark, CurveBoost wordmark and an attn.markets product attribution. Both chart headers are pixel-identical. The account handle is @attndotmarkets, linked to https://x.com/attndotmarkets in the draft.
 
 The first-hour creator-fee chart includes the original public profile pictures of @esotericpigeon and @ramonos. Image sources, capture times and hashes are retained in [the avatar provenance](../studies/creator-fees-854/figures/avatars/provenance.json).
 
@@ -25,3 +25,5 @@ The current framing is a Pump-only proposal to borrow liquidity and reach the ma
 The current announcement is conversational first-person copy intended to quote the underlying article. The quote cannot be attached until the article has a published X URL; the copy is saved as an unpublished draft.
 
 The article identifies the Circular export as a non-exhaustive dataset and specifies 5,534 tokens across 1,219 contested vamp races.
+
+Current image refresh: all three images say **an attn.markets product**. The race chart names the 5,534-token cohort, compares independent 82.6% and 47.3% race rates with aligned labels, and gives a plain-language takeaway. Its bars share a zero-to-100% scale. The cover attribution was edited with the built-in image tool; chart SVGs extend the existing native renderers and use the exact cover artwork.

@@ -39,7 +39,7 @@ class Plate:
   uri='data:'+asset['mimeType']+';base64,'+base64.b64encode(raw).decode()
   self.s.append(f'<image x="{x}" y="{y}" width="{size}" height="{size}" preserveAspectRatio="xMidYMid slice" clip-path="url(#{ident})" href="{uri}"/>')
  def save(self):
-  self.im.resize((W,H),Image.Resampling.LANCZOS).save(OUT/'curveboost-first-hour-fees-v4.png');(OUT/'curveboost-first-hour-fees-v4.svg').write_text(''.join(self.s)+'</svg>')
+  self.im.resize((W,H),Image.Resampling.LANCZOS).save(OUT/'curveboost-first-hour-fees-v5.png');(OUT/'curveboost-first-hour-fees-v5.svg').write_text(''.join(self.s)+'</svg>')
 def render(data):
  assert len(data['rows'])==2
  # Uplift is independently computed from exact lamports, never rounded display differences.

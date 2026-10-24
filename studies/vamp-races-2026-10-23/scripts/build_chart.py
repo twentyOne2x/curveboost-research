@@ -11,15 +11,15 @@ brand_spec=importlib.util.spec_from_file_location('curveboost_shared_brand',bran
 brand=importlib.util.module_from_spec(brand_spec);brand_spec.loader.exec_module(brand)
 
 p=argparse.ArgumentParser();p.add_argument('--results',type=Path,default=PACKAGE/'results/vamp-review.json');p.add_argument('--out',type=Path,default=PACKAGE/'charts/rebuilt');p.add_argument('--svg-only',action='store_true');args=p.parse_args();OUT=args.out;OUT.mkdir(parents=True,exist_ok=True)
-data=json.loads(args.results.read_text());cohort=next(c for c in data['cohorts'] if c['label']=='contested');den=cohort['races'];opening=cohort['leaderWins1h']['yes'];first=cohort['firstLaunchWins1h']['yes']
-assert (den,opening,first)==(1219,1007,577)
+data=json.loads(args.results.read_text());cohort=next(c for c in data['cohorts'] if c['label']=='contested');den=cohort['races'];members=cohort['members'];opening=cohort['leaderWins1h']['yes'];first=cohort['firstLaunchWins1h']['yes']
+assert (members,den,opening,first)==(5534,1219,1007,577)
 try:
  if args.svg_only:raise ImportError
  from PIL import Image,ImageDraw,ImageFont
 except ImportError:
  Image=ImageDraw=ImageFont=None
-W,H=1600,1100
-BG='#000000';WHITE='#F4F3EF';MUTED='#AAAEB5';BLUE='#E1E3E6';SILVER='#777D86';RULE='#30343A'
+W,H=1600,1300
+BG='#000000';WHITE='#F4F3EF';MUTED='#C7CAD0';BLUE='#70D99C';SILVER='#E1E3E6';RULE='#30343A'
 im=Image.new('RGB',(W*2,H*2),BG) if Image else None;d=ImageDraw.Draw(im) if im else None
 s=[f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}"><rect width="{W}" height="{H}" fill="{BG}"/>']
 def font(size,bold):
@@ -39,27 +39,31 @@ def rect(x,y,w,h,color):
 if im:brand.paste_header(im)
 s.append(brand.svg_header())
 line(70,110,1530,110,RULE)
-text(70,146,f'{den:,} CONTESTED VAMP RACES',25,color=MUTED,bold=True)
-text(70,204,'Opening volume and',73,bold=True)
-text(70,291,'first-hour leadership',73,bold=True)
-text(72,405,'Share that also led first-hour volume',32,color=MUTED)
+text(70,148,f'{members:,} tokens across {den:,} contested vamp races',31,bold=True)
+text(68,216,'Who led the first hour?',80,bold=True)
+text(72,323,'Share of races where each token had the most first-hour volume',32)
 x0=72;chartw=1456
+rows=[('Most volume in its first 2 minutes','Also led first-hour volume',opening,BLUE,429),
+      ('First token launched','Led first-hour volume',first,SILVER,669)]
+for label,sub,n,color,y in rows:
+ pct=100*n/den
+ text(72,y,label,43,bold=True)
+ text(74,y+64,sub,31)
+ text(1210,y-5,f'{pct:.1f}%',79,color=color,bold=True)
+ text(1214,y+83,f'{n:,} of {den:,} races',26,color=MUTED)
+ rect(x0,y+133,chartw,39,'#24282D')
+ rect(x0,y+133,chartw*n/den,39,color)
 for v in [0,50,100]:
  x=x0+chartw*v/100
- line(x,521,x,852,RULE,2)
- text(x-9 if v==50 else x-62 if v==100 else x,871,str(v)+'%',24,color=MUTED)
-rows=[('Strongest two-minute opening',opening,den,BLUE,496),('First token launched',first,den,SILVER,692)]
-for label,n,den,color,y in rows:
- pct=100*n/den;text(72,y,label,38,bold=True)
- rect(x0,y+69,chartw*n/den,77,color)
- endpoint=x0+chartw*n/den
- text(endpoint+21,y+68,f'{pct:.1f}%',57,color=color,bold=True)
- text(endpoint+24,y+130,f'{n:,} / {den:,}',25,color=MUTED)
-line(70,942,1530,942)
-text(70,967,'At least two tokens with $1,000+ first-hour volume.',27,color=MUTED)
-text(70,1008,'Each token uses its own two-minute and one-hour windows.',27,color=MUTED)
-text(70,1049,'Launches: 22–23 Oct 2026 · @Circular_fi export · @attndotmarkets',24,color=MUTED)
+ text(x-24 if v==50 else x-68 if v==100 else x,861,str(v)+'%',26,color=MUTED)
+text(72,921,'Two separate comparisons of the same races; the groups can overlap.',29,color=MUTED)
+line(70,985,1530,985)
+text(70,1020,'In 82.6% of races, the 2-minute volume leader',39,bold=True)
+text(70,1072,'also had the most first-hour volume.',39,bold=True)
+text(70,1150,'At least two tokens per race with $1,000+ first-hour volume.',26,color=MUTED)
+text(70,1192,"Each token's windows start at its own first trade.",26,color=MUTED)
+text(70,1234,'@Circular_fi · non-exhaustive sample, 22–23 Oct 2026 · @attndotmarkets',25,color=MUTED)
 
-(OUT/'curveboost-opening-volume-v3.svg').write_text(''.join(s)+'</svg>')
-if im:im.resize((W,H),Image.Resampling.LANCZOS).save(OUT/'curveboost-opening-volume-v3.png')
+(OUT/'curveboost-opening-volume-v4.svg').write_text(''.join(s)+'</svg>')
+if im:im.resize((W,H),Image.Resampling.LANCZOS).save(OUT/'curveboost-opening-volume-v4.png')
 print('SVG written; PNG '+('written with installed font fallback' if im else 'not requested or optional Pillow unavailable'))

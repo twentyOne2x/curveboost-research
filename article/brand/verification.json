@@ -1,14 +1,14 @@
 {
   "status": "PASS",
-  "acceptedCoverAndMasterSha256": "741ab0d91c63948a5e32a61f99807cb05f7c2286867e02cbbc3879981be6495e",
-  "sharedHeaderSvgSha256": "a3bde7a21bff4130ddffba80311e2a906c60cf18f3b35478347277fbacda4913",
+  "acceptedCoverAndMasterSha256": "03243739a78b941a2f62467b9e1018f6654ce9a83eac1a35e7aaae799f86f01e",
+  "sharedHeaderSvgSha256": "5e6fd134bad7b93ad2dadcc4f24af01dfecb3cc11d89d88dfb38e906dbebe920",
   "sharedPixelHeaderRegion": [
     68,
     35,
     1532,
     103
   ],
-  "bothChartHeaderPixelSha256": "092d5537ade535868543a7474bb9f409ef790aabb26d3ef018aa9b05713c528d",
+  "bothChartHeaderPixelSha256": "623329d2e8c2501b45976c7b2deff7fefaa357c5920d4fe9f7ea495eab0f38b9",
   "bothChartHeadersPixelIdentical": true,
   "masterImageBytesEmbeddedInSharedSVG": true,
   "noLogoOrWordmarkRedraw": true,
@@ -72,19 +72,20 @@
       ]
     },
     {
-      "name": "exact-By-attn-markets-attribution",
+      "name": "exact-an-attn-markets-product-attribution",
       "sourceBox": [
-        1586,
-        48,
+        1450,
+        45,
         1955,
         105
       ],
       "targetBox": [
-        1190,
+        1030,
         18,
-        274,
+        434,
         42
       ]
     }
-  ]
+  ],
+  "attribution": "an attn.markets product"
 }

@@ -1,7 +1,7 @@
 {
   "hashAlgorithm": "sha256",
   "files": {
-    "README.md": "bac492287de664f786ab234cf65b61d5dbf84aed4271627b410696d10e795b1c",
+    "README.md": "3e12f89db5148448f62fe516b264f22dd95261cbaca1ece8c1aadea0e910132b",
     "VERIFICATION.md": "d640461556fd1cb175df5c7976377d88bc5b20f93a14afbcc32ed066b51628ee",
     "charts/original/vamp-opening-volume-v1.png": "d54deddbae0be36000f0cf932207da7eed5ede94589ed1235976d994909a427e",
     "charts/original/vamp-opening-volume-v1.svg": "5fc8b940ffebc216b41e4314437490828ed0567be681ad03cb982c46126a62f1",
@@ -11,6 +11,8 @@
     "charts/rebuilt/curveboost-opening-volume-v2.svg": "54450d04348a95fd97501e67ac77a02714db8f1df062f01c4a4ccd2bb325b17b",
     "charts/rebuilt/curveboost-opening-volume-v3.png": "ece998d40791bb542ddc180709680af94e0fe5704f96f628b51ea257a5e83d02",
     "charts/rebuilt/curveboost-opening-volume-v3.svg": "3f68d58f6de9807c9e3296a472ef34a4aca7cb3750422bebc6564d1f1cbb3997",
+    "charts/rebuilt/curveboost-opening-volume-v4.png": "43c9ba68d59698c83186df4f27c747511c6b592c370270023457d280f380232a",
+    "charts/rebuilt/curveboost-opening-volume-v4.svg": "137f7f95d6fd18f88106b00ee762e73b8d077f59f5e2d7e2ee59aa5a72531b70",
     "charts/rebuilt/vamp-opening-volume-v1.png": "d54deddbae0be36000f0cf932207da7eed5ede94589ed1235976d994909a427e",
     "charts/rebuilt/vamp-opening-volume-v1.svg": "faa5de5978e0f812b365be8dc70dc0cf8973821717fd60611be86e82b7db6188",
     "data/README.txt": "210dec308a641058f580e1c0c2b085331072ca760f77275afae04b4e14638be6",
@@ -25,7 +27,7 @@
     "results/vamp-review.json": "cc96e474266adeb5bea20b797a4141b6f1ac312021746b46626b59ca4e3585c5",
     "results/verification.json": "dcf323fb66166639d01cca83eddea30fb729787b924539216c724e2d4634254a",
     "scripts/analyze.py": "c78fa9673c0fb29b3970d8a72f99960cacb5b6033f12f22cc7b1235d0cda00f7",
-    "scripts/build_chart.py": "be7b5c7cc8fe63ea663221482c53a92a051b7975d623fbf7d8a6cd40e12dade1"
+    "scripts/build_chart.py": "d6c1dedb910298e866333c3e7da71e8e4a81068fd4d8038c2f4e4188fcfe70ad"
   },
   "selfExcluded": true
 }
