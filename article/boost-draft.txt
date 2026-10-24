@@ -22,11 +22,11 @@ A sustainable model for CurveBoosters
 
 The vision is a DeFi product where CurveBoosters provide liquidity to deployers and earn compensation for their capital and launch support.
 
-The business model remains open: retaining inventory, boosting only when volume is sufficient, taking a share of creator fees, or combining these approaches. Its economics depend on @pumpfun's current fee policy.
+We boost immediately at launch. The business model remains open: holding the acquired tokens, selling them as volume allows to recover capital, taking a share of creator fees, or combining these approaches. Its economics depend on @pumpfun's current fee policy.
 
-Capital needs to be recycled. Unless fees justify keeping it deployed, that may require selling all booster inventory, possibly quickly. Traders need visibility into how that inventory is held or sold. Deployers should know the token allocation and circulating supply their own contribution buys.
+Capital needs to be recycled. Unless fees justify keeping it deployed, that may require selling all tokens held by the booster, possibly quickly. Traders need visibility into how that inventory is held or sold. Deployers should know the token allocation and circulating supply their own contribution buys.
 
-The working thesis is a better deal for deployers, creators, liquidity providers and traders, with more of each trade's fees going to creators and less to Pump's protocol. Transparent inventory and exit rules are essential.
+The working thesis is a better deal for deployers, creators, liquidity providers and traders, with more of each trade's fees going to creators and less to Pump's protocol.
 
 Part of what we're building
 

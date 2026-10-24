@@ -1,6 +1,6 @@
 # CurveBoost article and identity
 
-Current Typefully draft: **CurveBoost: boost the opening rush**, 445 words, unpublished.
+Current Typefully draft: **CurveBoost: boost the opening rush**, 450 words, unpublished.
 
 - [Article text](boost-draft.txt)
 - [Article cover](cover.png)

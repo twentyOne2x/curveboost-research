@@ -30,18 +30,18 @@
     },
     {
       "path": "VERIFICATION.md",
-      "bytes": 6542,
-      "sha256": "2d2a6f57dcc1c0b35de289f9691015dee874142f266d93006a2ef42461c0ad65"
+      "bytes": 7074,
+      "sha256": "fbf18cd5934d36dfcfaeb5b451733bc1df0f8ed17d9b9eca3a03a98739026d32"
     },
     {
       "path": "article/README.md",
       "bytes": 3419,
-      "sha256": "5318381b5c491cfc3781688b6b1fe92e3474a95d8b0c94a19070a595db394ce8"
+      "sha256": "c4ef0d529c9370d3cf6016b9c433066cf8595d024e0d98fc59e9af7d73e71c60"
     },
     {
       "path": "article/boost-draft.txt",
-      "bytes": 3021,
-      "sha256": "ec695099e9ebedd0543c590d41b007e59a0d7240eb7e88a67735b7e4e630788b"
+      "bytes": 3027,
+      "sha256": "8105d8e9a7bc4e83d4a80127f5ff0052e5d7ef99e5e602bb2676df1d469b2d1b"
     },
     {
       "path": "article/brand/README.md",
