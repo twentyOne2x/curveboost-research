@@ -1,6 +1,6 @@
 # CurveBoost article and identity
 
-Current Typefully draft: **CurveBoost: boost the opening rush**, 441 words, unpublished.
+Current Typefully draft: **CurveBoost: boost the opening rush**, 448 words, unpublished.
 
 - [Article text](boost-draft.txt)
 - [Article cover](cover.png)
@@ -23,3 +23,5 @@ The expanded article includes the proposed CurveBooster liquidity model, open re
 The current framing is a Pump-only proposal to borrow liquidity and reach the maximum creator-fee tier sooner, with an emphasis on initial trading fees. The article and announcement present the broader benefit as a working thesis, invite feedback, and identify transparent booster-inventory handling and deployer allocation/supply expectations as design goals.
 
 The current announcement is conversational first-person copy intended to quote the underlying article. The quote cannot be attached until the article has a published X URL; the copy is saved as an unpublished draft.
+
+The article identifies the Circular export as a non-exhaustive dataset and specifies 5,534 tokens across 1,219 contested vamp races.

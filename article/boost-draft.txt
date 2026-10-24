@@ -2,11 +2,11 @@ CurveBoost: boost the opening rush
 
 @pumpfun saw 46,528 launches on 22 October 2026, about 32 per minute, according to @tehcscreener. Tokens compete for the same idea within seconds.
 
-We're building CurveBoost at @attndotmarkets for @pumpfun launches only. The goal is simple: borrow liquidity to reach the highest creator-fee tier sooner, so more of the initial trading volume earns that rate.
+We're building CurveBoost at @attndotmarkets for @pumpfun launches. The goal is simple: borrow liquidity to reach the highest creator-fee tier instantly, so all initial trading volume earns that rate.
 
 Opening volume matters
 
-Across 1,219 contested races in @Circular_fi's 22-23 October dataset, the strongest two-minute opening led first-hour volume in 82.6% of races. The first launch won 47.3%. Each race had two or more tokens above $1,000 in first-hour volume, matched by ticker and similar name or identical image. Windows start at each token's first trade.
+Using a non-exhaustive dataset shared by @Circular_fi (22-23 October 2026), we studied 5,534 tokens across 1,219 contested vamp races. The strongest two-minute opening led first-hour volume in 82.6% of races; the first launch won 47.3%. Each race had two or more tokens above $1,000 in first-hour volume, matched by ticker and similar name or identical image. Windows start at each token's first trade.
 
 What the first hour could have paid
 
