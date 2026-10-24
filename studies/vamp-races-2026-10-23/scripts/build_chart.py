@@ -64,6 +64,6 @@ text(70,1150,'At least two tokens per race with $1,000+ first-hour volume.',26,c
 text(70,1192,"Each token's windows start at its own first trade.",26,color=MUTED)
 text(70,1234,'@Circular_fi · non-exhaustive sample, 22–23 Oct 2026 · @attndotmarkets',25,color=MUTED)
 
-(OUT/'curveboost-opening-volume-v4.svg').write_text(''.join(s)+'</svg>')
-if im:im.resize((W,H),Image.Resampling.LANCZOS).save(OUT/'curveboost-opening-volume-v4.png')
+(OUT/'curveboost-opening-volume-v5.svg').write_text(''.join(s)+'</svg>')
+if im:im.resize((W,H),Image.Resampling.LANCZOS).save(OUT/'curveboost-opening-volume-v5.png')
 print('SVG written; PNG '+('written with installed font fallback' if im else 'not requested or optional Pillow unavailable'))

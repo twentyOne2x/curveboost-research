@@ -23,7 +23,7 @@ Optional PNG recreation uses an already-installed Pillow 10.1 or newer:
 python3 scripts/build_chart.py
 ```
 
-The renderer tries Arial, DejaVu Sans and Liberation Sans, then Pillow's scalable default font. It needs no machine-specific font path. Native SVG uses standard sans-serif fallbacks and can be opened or exported in any SVG-capable browser/editor. Font rasterization can vary by platform. `charts/original/` preserves the earlier article PNG/SVG unchanged; `charts/rebuilt/curveboost-opening-volume-v4.{png,svg}` holds the current CurveBoost graphics.
+The renderer tries Arial, DejaVu Sans and Liberation Sans, then Pillow's scalable default font. It needs no machine-specific font path. Native SVG uses standard sans-serif fallbacks and can be opened or exported in any SVG-capable browser/editor. Font rasterization can vary by platform. `charts/original/` preserves the earlier article PNG/SVG unchanged; `charts/rebuilt/curveboost-opening-volume-v5.{png,svg}` holds the current CurveBoost graphics.
 
 ## Contents
 

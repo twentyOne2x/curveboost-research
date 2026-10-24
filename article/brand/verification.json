@@ -1,19 +1,21 @@
 {
   "status": "PASS",
-  "acceptedCoverAndMasterSha256": "03243739a78b941a2f62467b9e1018f6654ce9a83eac1a35e7aaae799f86f01e",
-  "sharedHeaderSvgSha256": "5e6fd134bad7b93ad2dadcc4f24af01dfecb3cc11d89d88dfb38e906dbebe920",
+  "acceptedCoverAndMasterSha256": "39ba6659bc7c31ed99c2a3ea724aa71977617d41685766076663cfe5a7f76ac5",
+  "sharedHeaderSvgSha256": "ad608edf69bb63211f1cf827d4d12dacfcb06688b2724b779ff07c8d3edef333",
   "sharedPixelHeaderRegion": [
     68,
     35,
     1532,
     103
   ],
-  "bothChartHeaderPixelSha256": "623329d2e8c2501b45976c7b2deff7fefaa357c5920d4fe9f7ea495eab0f38b9",
+  "bothChartHeaderPixelSha256": "aaecd6c887b1a74114c3747d9f4d0e5c0c93b3d9d5f51a19233b2db7f1a36d9e",
   "bothChartHeadersPixelIdentical": true,
   "masterImageBytesEmbeddedInSharedSVG": true,
   "noLogoOrWordmarkRedraw": true,
   "feeChartInputUnchanged": true,
   "raceSVGOnlyMatches": true,
+  "chartBodiesPixelIdenticalBelowY110": true,
+  "chartSVGBodiesIdentical": true,
   "parts": [
     {
       "name": "thin-curve-and-spark",
@@ -72,20 +74,25 @@
       ]
     },
     {
-      "name": "exact-an-attn-markets-product-attribution",
+      "name": "exact-by-attn-markets-attribution",
       "sourceBox": [
-        1450,
+        1628,
         45,
         1955,
         105
       ],
       "targetBox": [
-        1030,
+        1190,
         18,
-        434,
+        274,
         42
       ]
     }
   ],
-  "attribution": "an attn.markets product"
+  "attribution": "by attn.markets",
+  "visualAttributionReview": "PASS: rendered race PNG inspected; lowercase by attn.markets is complete and legible; fee header pixels are identical",
+  "charts": [
+    "studies/vamp-races-2026-10-23/charts/rebuilt/curveboost-opening-volume-v5.png",
+    "studies/creator-fees-854/figures/curveboost-first-hour-fees-v6.png"
+  ]
 }

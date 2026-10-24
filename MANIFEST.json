@@ -30,23 +30,23 @@
     },
     {
       "path": "VERIFICATION.md",
-      "bytes": 5628,
-      "sha256": "0858c534427d4e0b021a9fb755e7435652c59eb7a21b4d814aab61536ebed7b2"
+      "bytes": 6129,
+      "sha256": "8ab8bfb33f2057e58b84cc6a692aaa7d8f7620a8b3f902532e1da3554c3f0aec"
     },
     {
       "path": "article/README.md",
-      "bytes": 3443,
-      "sha256": "0ed018d9ce623904688ed45491a730d44daf95f2a37bec7ab79f3c6b2516563d"
+      "bytes": 3419,
+      "sha256": "5318381b5c491cfc3781688b6b1fe92e3474a95d8b0c94a19070a595db394ce8"
     },
     {
       "path": "article/boost-draft.txt",
-      "bytes": 3041,
-      "sha256": "db43b279699953033dfed421527d0c93d614c9e9e60dfcb0cbadde10569b5d21"
+      "bytes": 3031,
+      "sha256": "f86a27d41aedb2ceff735e2c58d128dd3307faf78b10e4ea892f6c86d2d6d6f7"
     },
     {
       "path": "article/brand/README.md",
-      "bytes": 918,
-      "sha256": "3448cb9f21215075db08b159cdd8e0a52317b40948c5734c372b3e60436f70e6"
+      "bytes": 902,
+      "sha256": "8abfbfe2bd04713162fa0ddec09bcd9d402c578a7d744b4c71bb51630ac1dec7"
     },
     {
       "path": "article/brand/brand_header.py",
@@ -55,33 +55,33 @@
     },
     {
       "path": "article/brand/clip-regions.json",
-      "bytes": 1318,
-      "sha256": "d101e943b34823c5d4577205bfeae803fa9a82976c891b4506dad97520602ea0"
+      "bytes": 1310,
+      "sha256": "f2b1bb333646eb868e6df256ee116456e9515487b96f291160deb6e43867f578"
     },
     {
       "path": "article/brand/cover-master.png",
-      "bytes": 1101604,
-      "sha256": "03243739a78b941a2f62467b9e1018f6654ce9a83eac1a35e7aaae799f86f01e"
+      "bytes": 568434,
+      "sha256": "39ba6659bc7c31ed99c2a3ea724aa71977617d41685766076663cfe5a7f76ac5"
     },
     {
       "path": "article/brand/curveboost-header.svg",
-      "bytes": 1469671,
-      "sha256": "5e6fd134bad7b93ad2dadcc4f24af01dfecb3cc11d89d88dfb38e906dbebe920"
+      "bytes": 758775,
+      "sha256": "ad608edf69bb63211f1cf827d4d12dacfcb06688b2724b779ff07c8d3edef333"
     },
     {
       "path": "article/brand/verification.json",
-      "bytes": 1625,
-      "sha256": "9e662bc093f36f36d700b6c0a14bd504853ea59fcb378205c30b6d9dc664dc91"
+      "bytes": 2017,
+      "sha256": "8b317dcaea657734df8aa59317cd885d01ec393c79a8bbe12f7acbdc58ff2ec2"
     },
     {
       "path": "article/cover-prompt.txt",
-      "bytes": 323,
-      "sha256": "817573c0dfe182d29646f70ca118499245cddf0e63b1f32fa46e27387f110e24"
+      "bytes": 370,
+      "sha256": "5a9235fad3b50c49f2df9866984c62454760df8430682d0161a80269d9c7a45d"
     },
     {
       "path": "article/cover.png",
-      "bytes": 1101604,
-      "sha256": "03243739a78b941a2f62467b9e1018f6654ce9a83eac1a35e7aaae799f86f01e"
+      "bytes": 568434,
+      "sha256": "39ba6659bc7c31ed99c2a3ea724aa71977617d41685766076663cfe5a7f76ac5"
     },
     {
       "path": "article/curve-boost-logo.png",
@@ -235,8 +235,8 @@
     },
     {
       "path": "studies/creator-fees-854/MANIFEST.json",
-      "bytes": 5327,
-      "sha256": "4ca8b1418e7f5fdc5b6412d83582f932d21deaf0152853cc71d705a39f158c5f"
+      "bytes": 5683,
+      "sha256": "c391b6703f1e8612bad5d81666b925df3629f7d85ea15a3e947d3568609697cd"
     },
     {
       "path": "studies/creator-fees-854/METHODOLOGY.md",
@@ -246,7 +246,7 @@
     {
       "path": "studies/creator-fees-854/README.md",
       "bytes": 3453,
-      "sha256": "ee1006749f82adfdac4762c5ddb6ceea279f31e2c05e861699db97c9986bc60b"
+      "sha256": "b7225e04e81338d1ba45648a8f2c09a4c952c067c006c72d8ff5437051aba51f"
     },
     {
       "path": "studies/creator-fees-854/data/event-asset-provenance.json",
@@ -364,6 +364,16 @@
       "sha256": "e407455181541b83bf3b1ee22f478820762340904d839ac18a7dfa834a8a82d9"
     },
     {
+      "path": "studies/creator-fees-854/figures/curveboost-first-hour-fees-v6.png",
+      "bytes": 320452,
+      "sha256": "fc2b48a8ed0b865b5aa9c5521a66e77b6101a0acd7a1e641eb038a80f3ef2502"
+    },
+    {
+      "path": "studies/creator-fees-854/figures/curveboost-first-hour-fees-v6.svg",
+      "bytes": 841332,
+      "sha256": "52e05e025d565a014eb1d37c8e71361dc34fd8ee0d8b3b7dd66c9ea1f769055c"
+    },
+    {
       "path": "studies/creator-fees-854/figures/uplift-proof.json",
       "bytes": 904,
       "sha256": "30081ca44029e6913fdb3c6455f30202af9171cc0181b954a3f813c8958b2eb0"
@@ -386,7 +396,7 @@
     {
       "path": "studies/creator-fees-854/scripts/render_chart.py",
       "bytes": 4808,
-      "sha256": "48bb7f6ddda1fbc3b16e27b6c8ea9475b12cc6bfb4c86d2023ca03fed3a1aed1"
+      "sha256": "d8d081a7ae2586bd5ee10a6dd553cf5f5dca5ba3c0baa478b7905f76f863cf84"
     },
     {
       "path": "studies/creator-fees-854/scripts/replay_events.py",
@@ -420,13 +430,13 @@
     },
     {
       "path": "studies/vamp-races-2026-10-23/PACKAGE-MANIFEST.json",
-      "bytes": 2982,
-      "sha256": "5a6778f5cd1e556b29089ac36e1a3ca0b743239a915ce9f9b67a457c810e90ca"
+      "bytes": 3228,
+      "sha256": "51f1ad61151a166c5625a49bccbbeefa07e1a0e4481d3c1b9e36bd4586f96764"
     },
     {
       "path": "studies/vamp-races-2026-10-23/README.md",
       "bytes": 2951,
-      "sha256": "3e12f89db5148448f62fe516b264f22dd95261cbaca1ece8c1aadea0e910132b"
+      "sha256": "5343a16a7490cbd2708b555a6d973301ebd6fe4f8544ebc51cc6e010a565ee6b"
     },
     {
       "path": "studies/vamp-races-2026-10-23/VERIFICATION.md",
@@ -482,6 +492,16 @@
       "path": "studies/vamp-races-2026-10-23/charts/rebuilt/curveboost-opening-volume-v4.svg",
       "bytes": 1474028,
       "sha256": "137f7f95d6fd18f88106b00ee762e73b8d077f59f5e2d7e2ee59aa5a72531b70"
+    },
+    {
+      "path": "studies/vamp-races-2026-10-23/charts/rebuilt/curveboost-opening-volume-v5.png",
+      "bytes": 292979,
+      "sha256": "34fa8a80f3056b08c6c0a1d18c6fa040a3892d30e4bbd666b46f3119044e3607"
+    },
+    {
+      "path": "studies/vamp-races-2026-10-23/charts/rebuilt/curveboost-opening-volume-v5.svg",
+      "bytes": 763132,
+      "sha256": "6db6d7cf27eaadb4a27177ee5f8d77938fe727eef97d4ed03ff9e7318e5a678a"
     },
     {
       "path": "studies/vamp-races-2026-10-23/charts/rebuilt/vamp-opening-volume-v1.png",
@@ -556,7 +576,7 @@
     {
       "path": "studies/vamp-races-2026-10-23/scripts/build_chart.py",
       "bytes": 4358,
-      "sha256": "d6c1dedb910298e866333c3e7da71e8e4a81068fd4d8038c2f4e4188fcfe70ad"
+      "sha256": "4c0c55604e5b30df4b58eebdbd758328336ca13573bc75dbbeceed008e6f597b"
     }
   ]
 }

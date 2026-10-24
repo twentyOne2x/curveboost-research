@@ -16,7 +16,7 @@ Pigeon (@esotericpigeon), 583 launches: 3,604.63 SOL ($386,560) becomes 6,000.32
 
 Ram (@ramonos), 271 launches: 807.51 SOL ($86,597) becomes 1,583.14 SOL ($169,776).
 
-The same trading activity could generate more creator fees. For please bro launches, a larger fee pot could also give them a stronger reason to claim it.
+The same trading activity could generate more creator fees. For plsbro launches, a larger fee pot could also give them a stronger reason to claim it.
 
 A sustainable model for CurveBoosters
 
@@ -30,7 +30,7 @@ The working thesis is a better deal for deployers, creators, liquidity providers
 
 Part of what we're building
 
-We're building a launchpad for our own products, other founders and launches around people or ideas. Creator fees could support recurring income across those launches. CurveBoost is intended for original tokens, vampire launches and the "please bro" meta alike.
+We're building a launchpad for our own products, other founders and launches around people or ideas. Creator fees could support recurring income across those launches. CurveBoost is intended for original tokens, vampire launches and the plsbro meta alike.
 
 We plan to release the underlying launchpad product first and share more soon. CurveBoost is still in development. We'd like feedback from deployers and traders on the incentives, transparency and capital-recycling design.
 
