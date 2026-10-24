@@ -10,8 +10,8 @@
     },
     {
       "path": "ASSETS.md",
-      "bytes": 1319,
-      "sha256": "985d8eb3ed2907a4b743504ad42ccb6c5c0f78da57873a5cd28738752d9efce7"
+      "bytes": 1308,
+      "sha256": "5c2af002e8809432110cb63509da5c7ab69e03aa2242d1cab06c877a3ca2b205"
     },
     {
       "path": "LICENSE",
@@ -20,8 +20,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3686,
-      "sha256": "225a8405cfdc566abced6f5aa5d5f2d77bb88c2a522cd8d5ddb836a9f164fc23"
+      "bytes": 6553,
+      "sha256": "aac32971b81181284069da37870326fb53694fa9b0ca02ec3d7fec7da92eafd3"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -30,18 +30,18 @@
     },
     {
       "path": "VERIFICATION.md",
-      "bytes": 7074,
-      "sha256": "fbf18cd5934d36dfcfaeb5b451733bc1df0f8ed17d9b9eca3a03a98739026d32"
+      "bytes": 8431,
+      "sha256": "a86f4c380a7ccdf5e2b5b1499ccfdba5eafd0eec21e202203cc36308d573836a"
     },
     {
       "path": "article/README.md",
-      "bytes": 3419,
-      "sha256": "c4ef0d529c9370d3cf6016b9c433066cf8595d024e0d98fc59e9af7d73e71c60"
+      "bytes": 3436,
+      "sha256": "d4896dfb476735227bc6b12ca997747e6778424020ae33e67dbcd69069635afb"
     },
     {
       "path": "article/boost-draft.txt",
-      "bytes": 3027,
-      "sha256": "8105d8e9a7bc4e83d4a80127f5ff0052e5d7ef99e5e602bb2676df1d469b2d1b"
+      "bytes": 3048,
+      "sha256": "f88ecbff60f6ddac49084985ab29bb8d0ac05610e3e34c4077bc2ed45cb4e016"
     },
     {
       "path": "article/brand/README.md",
@@ -120,8 +120,8 @@
     },
     {
       "path": "pilots/helius-2026-10-23/README.md",
-      "bytes": 1916,
-      "sha256": "949fc8f6836c22c26f5f856f5179cc1acb9d9412afa728ed0e057fa4ada22c5f"
+      "bytes": 1922,
+      "sha256": "4039c29c8da29c2163019b5180fe2acb51ccfc7a3e376cecfaaa879501ccee6b"
     },
     {
       "path": "pilots/helius-2026-10-23/SCOPE.json",
@@ -236,17 +236,17 @@
     {
       "path": "studies/creator-fees-854/MANIFEST.json",
       "bytes": 5683,
-      "sha256": "c391b6703f1e8612bad5d81666b925df3629f7d85ea15a3e947d3568609697cd"
+      "sha256": "f36a2de7e8a4e9c2e4bb29247e1c63e28533fbcf62c8aa5806295328006b3540"
     },
     {
       "path": "studies/creator-fees-854/METHODOLOGY.md",
-      "bytes": 3631,
-      "sha256": "ca9a413e10a77b0785298db44e148c23dda2f2dd606c96c9552e462b77fd2ce7"
+      "bytes": 3623,
+      "sha256": "7e415da7244f39b1ff17d841c67996bfc3183e61c477776349c4989c223c77b2"
     },
     {
       "path": "studies/creator-fees-854/README.md",
-      "bytes": 3453,
-      "sha256": "b7225e04e81338d1ba45648a8f2c09a4c952c067c006c72d8ff5437051aba51f"
+      "bytes": 3452,
+      "sha256": "415db484833b652e7f06f311f621cda9ac19fb6917c86725eb075935bceff71d"
     },
     {
       "path": "studies/creator-fees-854/data/event-asset-provenance.json",
@@ -270,8 +270,8 @@
     },
     {
       "path": "studies/creator-fees-854/data/provenance.json",
-      "bytes": 2027,
-      "sha256": "fe0554effc5e73ee10ad12ea0c0f7265b41b8200e98445ea78cc96d3292ee112"
+      "bytes": 2026,
+      "sha256": "f47e08fe70eea5413caa2513c8a97dab962dcb0052fe38f000a2007355928d40"
     },
     {
       "path": "studies/creator-fees-854/figures/avatars/avatar-manifest.json",
@@ -400,8 +400,8 @@
     },
     {
       "path": "studies/creator-fees-854/scripts/replay_events.py",
-      "bytes": 2550,
-      "sha256": "8bdf3122d2a72618cb0878a74ee6f56f86867dec5596bab9c8acb8217ab37e72"
+      "bytes": 2551,
+      "sha256": "19be613bdff3c20105aa3b1ededefd989b2fce272175e88c94e7d00e1af31e9f"
     },
     {
       "path": "studies/market-context-2026-10-22/README.md",
@@ -431,12 +431,12 @@
     {
       "path": "studies/vamp-races-2026-10-23/PACKAGE-MANIFEST.json",
       "bytes": 3228,
-      "sha256": "51f1ad61151a166c5625a49bccbbeefa07e1a0e4481d3c1b9e36bd4586f96764"
+      "sha256": "eddb0784f015b1cc319d21b427b14f7aad49ccbfdbdbd28cb75d2431e37098af"
     },
     {
       "path": "studies/vamp-races-2026-10-23/README.md",
-      "bytes": 2951,
-      "sha256": "5343a16a7490cbd2708b555a6d973301ebd6fe4f8544ebc51cc6e010a565ee6b"
+      "bytes": 2957,
+      "sha256": "40764e950da54c3dbd3fc0d90f93cb2e95e2f2bb5a19b9466b1625b3536bb964"
     },
     {
       "path": "studies/vamp-races-2026-10-23/VERIFICATION.md",

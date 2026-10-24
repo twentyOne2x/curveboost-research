@@ -1,6 +1,6 @@
 # CurveBoost matched launch-race research
 
-Study snapshot: 23 October 2026. Prepared for private review.
+Study snapshot: 23 October 2026. Retained public research snapshot.
 
 The strongest own two-minute opening also led own first-hour volume in **1,007/1,219 contested races (82.6%)**. The first token launched led in **577/1,219 (47.3%)**. The contested set contains **5,534 member tokens**. A contested race has at least two tokens with $1,000 or more in own first-hour exported volume.
 

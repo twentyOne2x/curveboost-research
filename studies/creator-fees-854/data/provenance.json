@@ -23,7 +23,7 @@
     }
   ],
   "rowPolicy": "All traders included. Exported only all-measure fields; original exactLauncherExcluded fields intentionally not used.",
-  "availability": "All854 per-launch phase summaries bundled. Separate private release asset events-854.jsonl.gz contains1,759,593normalizedevents; portable replay independently computes per-event95bps floors and reconciles every phase field. RawRPCarchives not bundled.",
+  "availability": "All854 per-launch phase summaries bundled. Separate public release asset events-854.jsonl.gz contains1,759,593normalizedevents; portable replay independently computes per-event95bps floors and reconciles every phase field. RawRPCarchives not bundled.",
   "valuationSource": {
     "caseRelativePath": "outputs/leverage-fee-benchmark-20261014/sources/sol-usd-kraken.json",
     "originalSha256": "4da117aa33e19fa8da8b1eefac562ed87cecac8c61643df2472b730799b782f4",

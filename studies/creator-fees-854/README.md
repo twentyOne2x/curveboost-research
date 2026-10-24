@@ -1,6 +1,6 @@
 # CurveBoost: retained first-hour fee sensitivity
 
-Study snapshot: 23 October 2026. Prepared for private review.
+Study snapshot: 23 October 2026. Retained public research snapshot.
 
 This reproduces the article's **583 Pigeon + 271 Ram = 854 launch windows**, including original-launcher trades, from the retained exact integer per-launch phase tables. All amounts represent generated gross creator fees, not money received or claimed by either launcher.
 
@@ -23,7 +23,7 @@ Read `METHODOLOGY.md` for the counterfactual and evidence limits, `data/provenan
 
 ## Private event asset and independent replay
 
-The separate private release asset `events-854.jsonl.gz` contains the normalized events behind all 854 windows. Download it only from this repository's private release, then run:
+The separate release asset `events-854.jsonl.gz` contains the normalized events behind all 854 windows. Download it only from this repository's research release, then run:
 
 ```sh
 python3 scripts/replay_events.py --events events-854.jsonl.gz

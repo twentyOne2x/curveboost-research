@@ -1,6 +1,6 @@
 # CurveBoost article and identity
 
-Current Typefully draft: **CurveBoost: boost the opening rush**, 450 words, unpublished.
+Current Typefully draft: **CurveBoost: boost the opening rush**, 452 words, unpublished.
 
 - [Article text](boost-draft.txt)
 - [Article cover](cover.png)
@@ -12,7 +12,7 @@ Current Typefully draft: **CurveBoost: boost the opening rush**, 450 words, unpu
 
 The flat exponential curve-to-spark cover was generated using the built-in image-generation tool. Current [cover prompt](cover-prompt.txt) and earlier [logo concept prompt](logo-prompt.txt). Charts use deterministic native rendering from the unchanged study values. Earlier graphics remain in the study folders for reference.
 
-Cover attribution: **by attn.markets**. CurveBoost is still in development. The research repository remains private.
+Cover attribution: **by attn.markets**. CurveBoost is still in development. The research repository is public as CurveBoost Research.
 
 The chart headers reuse the approved cover’s exact source pixels for its thin curve/spark, CurveBoost wordmark and by attn.markets attribution. Both chart headers are pixel-identical. The account handle is @attndotmarkets, linked to https://x.com/attndotmarkets in the draft.
 

@@ -2,13 +2,13 @@
   "files": [
     {
       "path": "METHODOLOGY.md",
-      "bytes": 3631,
-      "sha256": "ca9a413e10a77b0785298db44e148c23dda2f2dd606c96c9552e462b77fd2ce7"
+      "bytes": 3623,
+      "sha256": "7e415da7244f39b1ff17d841c67996bfc3183e61c477776349c4989c223c77b2"
     },
     {
       "path": "README.md",
-      "bytes": 3453,
-      "sha256": "b7225e04e81338d1ba45648a8f2c09a4c952c067c006c72d8ff5437051aba51f"
+      "bytes": 3452,
+      "sha256": "415db484833b652e7f06f311f621cda9ac19fb6917c86725eb075935bceff71d"
     },
     {
       "path": "data/event-asset-provenance.json",
@@ -32,8 +32,8 @@
     },
     {
       "path": "data/provenance.json",
-      "bytes": 2027,
-      "sha256": "fe0554effc5e73ee10ad12ea0c0f7265b41b8200e98445ea78cc96d3292ee112"
+      "bytes": 2026,
+      "sha256": "f47e08fe70eea5413caa2513c8a97dab962dcb0052fe38f000a2007355928d40"
     },
     {
       "path": "figures/avatars/avatar-manifest.json",
@@ -162,8 +162,8 @@
     },
     {
       "path": "scripts/replay_events.py",
-      "bytes": 2550,
-      "sha256": "8bdf3122d2a72618cb0878a74ee6f56f86867dec5596bab9c8acb8217ab37e72"
+      "bytes": 2551,
+      "sha256": "19be613bdff3c20105aa3b1ededefd989b2fce272175e88c94e7d00e1af31e9f"
     }
   ],
   "exclusion": "MANIFEST.json excludes itself; large normalized event asset is separately hash-bound in data/event-asset-provenance.json.",

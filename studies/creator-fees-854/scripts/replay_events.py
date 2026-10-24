@@ -1,4 +1,4 @@
-"""Stream private normalized events; independently recompute every event's95bps floor."""
+"""Stream retained normalized events; independently recompute every event's95bps floor."""
 import argparse,collections,csv,datetime,gzip,hashlib,json
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]

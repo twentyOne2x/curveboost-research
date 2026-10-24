@@ -36,4 +36,4 @@ We plan to release the underlying launchpad product first and share more soon. C
 
 USD: retained study rate, $107.24/SOL (14 October 2026).
 
-@attndotmarkets · Data, methodology and calculations
+@attndotmarkets · CurveBoost Research: data, methodology and calculations
